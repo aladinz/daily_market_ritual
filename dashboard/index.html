@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daily Market Ritual Dashboard - Pre-market and Post-market analysis">
+    
+    <!-- 
+        Market Ritual Dashboard
+        Deployed via GitHub Pages
+        Auto-detects time zone to show relevant market ritual
+    -->
+    
+    <title>Market Ritual Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>📊 Market Ritual</h1>
+                    <span class="subtitle">Daily Trading Intelligence</span>
+                </div>
+                <div class="header-controls">
+                    <div class="current-time" id="currentTime"></div>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab active" data-tab="today" id="todayTab">
+                    <span class="tab-icon">⚡</span>
+                    Today's Ritual
+                </button>
+                <button class="tab" data-tab="premarket" id="premarketTab">
+                    <span class="tab-icon">🌅</span>
+                    Pre-Market
+                </button>
+                <button class="tab" data-tab="postmarket" id="postmarketTab">
+                    <span class="tab-icon">🌆</span>
+                    Post-Market
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Loading State -->
+            <div class="loading" id="loading">
+                <div class="loading-spinner"></div>
+                <p>Loading market data...</p>
+            </div>
+
+            <!-- Error State -->
+            <div class="error" id="error" style="display: none;">
+                <div class="error-icon">⚠️</div>
+                <h2>Unable to Load Data</h2>
+                <p id="errorMessage"></p>
+                <button class="btn-retry" onclick="window.location.reload()">Retry</button>
+            </div>
+
+            <!-- Market In Session Message -->
+            <div class="info-message" id="inSessionMessage" style="display: none;">
+                <div class="info-icon">📈</div>
+                <h2>Market Currently in Session</h2>
+                <p>The market is open right now. Choose <strong>Pre-Market</strong> or <strong>Post-Market</strong> tabs above to view specific reports.</p>
+                <div class="session-time" id="sessionTime"></div>
+            </div>
+
+            <!-- Report Container -->
+            <div class="report-container" id="reportContainer" style="display: none;">
+                <!-- Report Header -->
+                <div class="report-header">
+                    <div class="report-title">
+                        <h2 id="reportTitle">Loading...</h2>
+                        <span class="report-date" id="reportDate"></span>
+                    </div>
+                    <div class="report-badge" id="reportBadge"></div>
+                </div>
+
+                <!-- Report Content -->
+                <div class="report-content" id="reportContent">
+                    <!-- Dynamic content will be injected here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Market Ritual Dashboard</p>
+                <p class="footer-note">
+                    <span class="pulse"></span>
+                    Live data • Updated daily
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        ↑
+    </button>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

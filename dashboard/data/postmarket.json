@@ -1,0 +1,101 @@
+{
+  "date": "January 28, 2026",
+  "snapshot": {
+    "SP500": {
+      "change": "+0.41%",
+      "close": "6978.60"
+    },
+    "NASDAQ": {
+      "change": "+0.91%",
+      "close": "23817.10"
+    },
+    "DOW": {
+      "change": "-0.83%",
+      "close": "49003.41"
+    }
+  },
+  "key_levels": {
+    "support": "6962.01",
+    "resistance": "6992.00",
+    "ma_20": "6917.19",
+    "ma_50": "6842.82"
+  },
+  "intraday_levels": {
+    "yesterday_low": "6958.83",
+    "yesterday_high": "6988.82",
+    "yesterday_close": "6978.60",
+    "atr": "61.44",
+    "atr_pct": "0.9%",
+    "expected_low": "6917.16",
+    "expected_high": "7040.04"
+  },
+  "breadth": {
+    "tone": "Neutral",
+    "pct_above_50ma": "64.2%",
+    "advancing": "27",
+    "declining": "26",
+    "ad_ratio": "1.04",
+    "breadth_score": "78"
+  },
+  "sentiment": {
+    "score": "56",
+    "interpretation": "Greed",
+    "trend": "[VIX-based proxy]",
+    "proxy": true,
+    "signal": "Caution on new longs - sentiment stretched"
+  },
+  "market_context": {
+    "five_day_trend": "Strong uptrend (+2.7%)",
+    "wtd": "+1.5%",
+    "ma_structure": "Bullish (above 20 & 50-day MAs)",
+    "volume": "Above Average participation (volume +0% vs. avg)"
+  },
+  "sections": {
+    "tone": "**Mixed/Rotational** - Divergent performance across indices. Tech-led rally.",
+    "catalysts": "**Macro**: Fed policy weighing on sentiment.\n\n**Earnings**: Earnings reports driving stock-specific moves.\n\n**Headlines**: No dominant headlines; normal market conditions.",
+    "sectors": "**Leading**: \n  • Technology (XLK): +1.35%\n  • Utilities (XLU): +1.31%\n  • Energy (XLE): +0.91%\n\n**Lagging**: \n  • Communication Services (XLC): -0.74%\n  • Financials (XLF): -0.77%\n  • Healthcare (XLV): -1.68%\n\n**VIX**: +0.73% (close: 16.47)\n\n**Rotation Notes**: **Balanced**: No clear rotation between defensive and cyclical sectors",
+    "reflection": "→ **Trend Neutral**: Consolidation mode - wait for breakouts\n\n**Watch**: Leaders = Technology (XLK)\n\n**Overnight Watch**: Check futures, Asia session, any headlines\n\n**Tomorrow**: Monitor for bounce or breakdown",
+    "tomorrow_setups": "**Event-Driven Setups**: FOMC tomorrow at 8:30 AM ET. Expect low conviction until the release. Prepare for volatility expansion. Strategy: Wait for the data, then trade the reaction.",
+    "takeaway": "Market edged higher in low-volatility grind."
+  },
+  "rs_leaders": [
+    {
+      "ticker": "GOOGL",
+      "price": "334.55",
+      "rs_score": "100",
+      "stock_return": "6.7",
+      "relative_perf": "6.0",
+      "pct_from_high": "-1.7",
+      "vol_increase": "11"
+    },
+    {
+      "ticker": "JNJ",
+      "price": "224.44",
+      "rs_score": "100",
+      "stock_return": "8.1",
+      "relative_perf": "7.4",
+      "pct_from_high": "-0.5",
+      "vol_increase": "55"
+    },
+    {
+      "ticker": "WMT",
+      "price": "116.94",
+      "rs_score": "100",
+      "stock_return": "4.7",
+      "relative_perf": "4.0",
+      "pct_from_high": "-3.8",
+      "vol_increase": "227"
+    }
+  ],
+  "checklist": {
+    "rating": "8/10",
+    "interpretation": "Strong Bullish",
+    "items": [
+      "✓ Market above 20-day MA (bullish structure)",
+      "→ VIX moderate (15-20) - normal conditions",
+      "✓ Growth sectors leading (risk-on signal)",
+      "→ Volume near average",
+      "✓ 5-day uptrend intact"
+    ]
+  }
+}

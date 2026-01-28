@@ -1,0 +1,47 @@
+Date: January 27, 2026
+Market Close Snapshot:
+- S&P 500: +0.41% (close: 6978.60)
+- Nasdaq: +0.91% (close: 23817.10)
+- Dow Jones: -0.83% (close: 49003.41)
+
+1. Tone of Today's Session
+**Mixed/Rotational** - Divergent performance across indices. Tech-led rally.
+
+2. What Drove Today's Moves
+**Macro**: No major macro catalysts today.
+
+**Earnings**: Earnings reports driving stock-specific moves.
+
+**Headlines**: Headlines focused on Tesla, Meta.
+
+3. Sector Leadership & Volatility
+**Leading**: 
+  • Technology (XLK): +1.35%
+  • Utilities (XLU): +1.31%
+  • Energy (XLE): +0.91%
+
+**Lagging**: 
+  • Communication Services (XLC): -0.74%
+  • Financials (XLF): -0.77%
+  • Healthcare (XLV): -1.68%
+
+**VIX**: +1.24% (close: 16.35)
+
+**Rotation Notes**: **Balanced**: No clear rotation between defensive and cyclical sectors
+
+4. Swing-Trader Reflection
+→ **Trend Neutral**: Consolidation mode - wait for breakouts
+
+**Watch**: Leaders = Technology (XLK)
+
+**Overnight Watch**: Check futures, Asia session, any headlines
+
+**Tomorrow**: Monitor for bounce or breakdown
+
+5. Portfolio & Watchlist
+**Your Positions**: [Fill manually]
+
+**Your Watchlist**: [Fill manually]
+
+6. One-Sentence Takeaway
+Market edged higher in low-volatility grind.

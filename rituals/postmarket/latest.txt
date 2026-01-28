@@ -1,0 +1,91 @@
+Date: January 28, 2026
+Market Close Snapshot:
+- S&P 500: +0.41% (close: 6978.60)
+- Nasdaq: +0.91% (close: 23817.10)
+- Dow Jones: -0.83% (close: 49003.41)
+
+**Key Levels for Swing Traders**:
+- SPX Support: 6962.01 | Resistance: 6992.00
+- SPX 20-day MA: 6917.19 | 50-day MA: 6842.82
+
+**Intraday Reference Levels** (SPX):
+  • Yesterday's Range: 6958.83 - 6988.82
+  • Yesterday's Close: 6978.60
+  • ATR (14-day): 61.44 points (0.9%)
+  • Expected Today's Range: 6917.16 - 7040.04
+
+**Market Breadth**: Neutral
+  • 64.2% of stocks above 50-day MA
+  • Advance/Decline: 27/26 (ratio: 1.04)
+  • Breadth Score: 78/100
+
+**Sentiment - CNN Fear & Greed Index**: 56/100 (Greed)  [VIX-based proxy]
+  ███████████░░░░░░░░░
+  Signal: Caution on new longs - sentiment stretched
+
+**Market Context**:
+**5-Day Trend**: Strong uptrend (+2.7%) | **Week-to-Date**: +1.5% | **MA Structure**: Bullish (above 20 & 50-day MAs)
+**Volume**: Above Average participation (volume +0% vs. avg)
+
+1. Tone of Today's Session
+**Mixed/Rotational** - Divergent performance across indices. Tech-led rally.
+
+2. What Drove Today's Moves
+**Macro**: Fed policy weighing on sentiment.
+
+**Earnings**: Earnings reports driving stock-specific moves.
+
+**Headlines**: No dominant headlines; normal market conditions.
+
+3. Sector Leadership & Volatility
+**Leading**: 
+  • Technology (XLK): +1.35%
+  • Utilities (XLU): +1.31%
+  • Energy (XLE): +0.91%
+
+**Lagging**: 
+  • Communication Services (XLC): -0.74%
+  • Financials (XLF): -0.77%
+  • Healthcare (XLV): -1.68%
+
+**VIX**: +0.73% (close: 16.47)
+
+**Rotation Notes**: **Balanced**: No clear rotation between defensive and cyclical sectors
+
+3a. Relative Strength Leaders (20-Day RS vs SPX)
+  1. GOOGL ($334.55) - RS Score: 100/100
+     • 20-Day: +6.7% (vs SPX: +6.0%)
+     • Distance from 52w High: -1.7%
+     • Volume: +11% vs 10-day avg
+  2. JNJ ($224.44) - RS Score: 100/100
+     • 20-Day: +8.1% (vs SPX: +7.4%)
+     • Distance from 52w High: -0.5%
+     • Volume: +55% vs 10-day avg
+  3. WMT ($116.94) - RS Score: 100/100
+     • 20-Day: +4.7% (vs SPX: +4.0%)
+     • Distance from 52w High: -3.8%
+     • Volume: +227% vs 10-day avg
+
+4. Swing-Trader Reflection
+→ **Trend Neutral**: Consolidation mode - wait for breakouts
+
+**Watch**: Leaders = Technology (XLK)
+
+**Overnight Watch**: Check futures, Asia session, any headlines
+
+**Tomorrow**: Monitor for bounce or breakdown
+
+5. Swing Trade Checklist
+✓ Market above 20-day MA (bullish structure)
+→ VIX moderate (15-20) - normal conditions
+✓ Growth sectors leading (risk-on signal)
+→ Volume near average
+✓ 5-day uptrend intact
+
+**Rating**: 8/10 (Strong Bullish)
+
+6. Tomorrow's Setups
+**Event-Driven Setups**: FOMC tomorrow at 8:30 AM ET. Expect low conviction until the release. Prepare for volatility expansion. Strategy: Wait for the data, then trade the reaction.
+
+7. One-Sentence Takeaway
+Market edged higher in low-volatility grind.

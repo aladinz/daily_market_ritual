@@ -1,0 +1,90 @@
+Date: January 28, 2026
+Pre-Market Futures Snapshot (as of 07:48 AM CST):
+- S&P 500 Futures (ES): +0.17% (level: 7020.25)
+- Nasdaq Futures (NQ): +0.77% (level: 26273.50)
+- Dow Futures (YM): -0.05% (level: 49132.00)
+
+**Key Levels for Swing Traders** (from yesterday's close):
+- SPX Support: 6962.01 | Resistance: 6992.00
+- SPX 20-day MA: 6917.19 | 50-day MA: 6842.82
+
+**Intraday Reference Levels** (SPX):
+  • Yesterday's Range: 6958.83 - 6988.82
+  • Yesterday's Close: 6978.60
+  • ATR (14-day): 61.44 points (0.9%)
+  • Expected Today's Range: 6917.16 - 7040.04
+  • Opening Gap: Gap Up 0.60%
+
+**Market Breadth**: Neutral
+  • 64.2% of stocks above 50-day MA
+  • Advance/Decline: 27/26 (ratio: 1.04)
+  • Breadth Score: 78/100
+
+**Sentiment - CNN Fear & Greed Index**: 56/100 (Greed)  [VIX-based proxy]
+  ███████████░░░░░░░░░
+  Signal: Caution on new longs - sentiment stretched
+
+**Market Context** (from yesterday's close):
+**5-Day Trend**: Strong uptrend (+2.7%) | **Week-to-Date**: +1.5% | **MA Structure**: Bullish (above 20 & 50-day MAs)
+**Volume**: Above Average participation (volume +0% vs. avg)
+
+**Futures Context**:
+**Futures 5-Day Trend**: Mild uptrend (+1.6%)
+
+1. Overnight Tone
+**Cautiously Bullish** - Modest gains in overnight futures. Tech futures leading.
+
+2. What to Watch Today
+**Scheduled Events**: No major scheduled releases
+
+**Overnight Headlines**: US stock futures rise with Fed, Mag 7 earnings on deck
+
+**Sector Focus**: 
+  Leaders (from yesterday): Technology (XLK), Utilities (XLU)
+  Laggards (from yesterday): Financials (XLF), Healthcare (XLV)
+
+3. Pre-Market Movers
+Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.
+Look for: Earnings reactions, overnight news catalysts, technical breakouts.
+
+3a. Relative Strength Leaders (20-Day RS vs SPX)
+  1. GOOGL ($334.55) - RS Score: 100/100
+     • 20-Day: +6.7% (vs SPX: +6.0%)
+     • Distance from 52w High: -1.7%
+     • Volume: +11% vs 10-day avg
+  2. JNJ ($224.44) - RS Score: 100/100
+     • 20-Day: +8.1% (vs SPX: +7.4%)
+     • Distance from 52w High: -0.5%
+     • Volume: +55% vs 10-day avg
+  3. WMT ($116.94) - RS Score: 100/100
+     • 20-Day: +4.7% (vs SPX: +4.0%)
+     • Distance from 52w High: -3.8%
+     • Volume: +227% vs 10-day avg
+
+4. Swing-Trader Intention for Today
+**Today's Bias**: Neutral - waiting for clear setups
+
+**Key Event**: No major scheduled releases - focus on technicals
+
+**Focus**: Watch Technology (XLK) for momentum
+
+**Risk**: Normal conditions - standard position sizing
+
+5. Swing Trade Checklist (based on yesterday's close)
+✓ Market above 20-day MA (bullish structure)
+→ VIX moderate (15-20) - normal conditions
+✓ Growth sectors leading (risk-on signal)
+→ Volume near average
+✓ 5-day uptrend intact
+
+**Rating**: 8/10 (Strong Bullish)
+
+6. Action Plan
+**Entry Zones**: [Fill after market open with specific levels]
+
+**Watchlist**: [Add specific tickers showing strength/weakness]
+
+**Risk Management**: [Set max position size and stop levels]
+
+7. One-Line Game Plan
+Patience mode - letting the tape reveal direction.

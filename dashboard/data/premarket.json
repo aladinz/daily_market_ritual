@@ -1,0 +1,103 @@
+{
+  "date": "January 28, 2026",
+  "snapshot": {
+    "ES": {
+      "change": "+0.17%",
+      "close": "7020.25"
+    },
+    "NQ": {
+      "change": "+0.77%",
+      "close": "26273.50"
+    },
+    "YM": {
+      "change": "-0.05%",
+      "close": "49132.00"
+    }
+  },
+  "key_levels": {
+    "support": "6962.01",
+    "resistance": "6992.00",
+    "ma_20": "6917.19",
+    "ma_50": "6842.82"
+  },
+  "intraday_levels": {
+    "yesterday_low": "6958.83",
+    "yesterday_high": "6988.82",
+    "yesterday_close": "6978.60",
+    "atr": "61.44",
+    "atr_pct": "0.9%",
+    "expected_low": "6917.16",
+    "expected_high": "7040.04",
+    "gap_direction": "Gap Up",
+    "gap_pct": "0.60%"
+  },
+  "breadth": {
+    "tone": "Neutral",
+    "pct_above_50ma": "64.2%",
+    "advancing": "27",
+    "declining": "26",
+    "ad_ratio": "1.04",
+    "breadth_score": "78"
+  },
+  "sentiment": {
+    "score": "56",
+    "interpretation": "Greed",
+    "trend": "[VIX-based proxy]",
+    "proxy": true,
+    "signal": "Caution on new longs - sentiment stretched"
+  },
+  "market_context": {
+    "five_day_trend": "Strong uptrend (+2.7%)",
+    "wtd": "+1.5%",
+    "ma_structure": "Bullish (above 20 & 50-day MAs)",
+    "volume": "Above Average participation (volume +0% vs. avg)"
+  },
+  "sections": {
+    "overnight_tone": "**Cautiously Bullish** - Modest gains in overnight futures. Tech futures leading.",
+    "what_to_watch": "**Scheduled Events**: No major scheduled releases\n\n**Overnight Headlines**: US stock futures rise with Fed, Mag 7 earnings on deck\n\n**Sector Focus**: \n  Leaders (from yesterday): Technology (XLK), Utilities (XLU)\n  Laggards (from yesterday): Financials (XLF), Healthcare (XLV)",
+    "movers": "Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.\nLook for: Earnings reactions, overnight news catalysts, technical breakouts.",
+    "intention": "**Today's Bias**: Neutral - waiting for clear setups\n\n**Key Event**: No major scheduled releases - focus on technicals\n\n**Focus**: Watch Technology (XLK) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
+    "action_plan": "**Entry Zones**: [Fill after market open with specific levels]\n\n**Watchlist**: [Add specific tickers showing strength/weakness]\n\n**Risk Management**: [Set max position size and stop levels]",
+    "game_plan": "Patience mode - letting the tape reveal direction."
+  },
+  "rs_leaders": [
+    {
+      "ticker": "GOOGL",
+      "price": "334.55",
+      "rs_score": "100",
+      "stock_return": "6.7",
+      "relative_perf": "6.0",
+      "pct_from_high": "-1.7",
+      "vol_increase": "11"
+    },
+    {
+      "ticker": "JNJ",
+      "price": "224.44",
+      "rs_score": "100",
+      "stock_return": "8.1",
+      "relative_perf": "7.4",
+      "pct_from_high": "-0.5",
+      "vol_increase": "55"
+    },
+    {
+      "ticker": "WMT",
+      "price": "116.94",
+      "rs_score": "100",
+      "stock_return": "4.7",
+      "relative_perf": "4.0",
+      "pct_from_high": "-3.8",
+      "vol_increase": "227"
+    }
+  ],
+  "checklist": {
+    "rating": "8/10",
+    "interpretation": "Strong Bullish",
+    "items": [
+      "✓ Market above 20-day MA (bullish structure)",
+      "→ VIX moderate (15-20) - normal conditions",
+      "✓ Growth sectors leading (risk-on signal)",
+      "→ Volume near average",
+      "✓ 5-day uptrend intact"
+    ]
+  }
+}
