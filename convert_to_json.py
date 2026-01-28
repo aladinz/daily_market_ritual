@@ -23,7 +23,8 @@ def parse_ritual_report(report_text, report_type):
         "market_context": {},
         "sections": {},
         "rs_leaders": [],
-        "checklist": {}
+        "checklist": {},
+        "watch_tomorrow": {}
     }
     
     # Extract snapshot (futures or market close)
@@ -55,6 +56,9 @@ def parse_ritual_report(report_text, report_type):
     
     # Extract checklist
     data["checklist"] = extract_checklist(report_text)
+    
+    # Extract watch tomorrow
+    data["watch_tomorrow"] = extract_watch_tomorrow(report_text)
     
     return data
 
@@ -317,6 +321,45 @@ def extract_checklist(text):
     checklist["items"] = items
     
     return checklist
+
+
+def extract_watch_tomorrow(text):
+    """Extract 'What to Watch Tomorrow' section."""
+    watch_data = {
+        "after_hours": "",
+        "economic_calendar": "",
+        "gap_watch": "",
+        "rotation_watch": ""
+    }
+    
+    # Find the section
+    watch_section = re.search(r'\*\*What to Watch Tomorrow\*\*.*?\n(.+?)(?=\n7\.|\nZ)', text, re.DOTALL)
+    if not watch_section:
+        return watch_data
+    
+    section_text = watch_section.group(1)
+    
+    # Extract after-hours earnings
+    ah_match = re.search(r'📊\s+\*\*After-Hours Earnings Reactions\*\*:\s*(.+)', section_text)
+    if ah_match:
+        watch_data["after_hours"] = ah_match.group(1).strip()
+    
+    # Extract economic calendar
+    calendar_match = re.search(r'📅\s+\*\*Economic Calendar\*\*:\s*(.+)', section_text)
+    if calendar_match:
+        watch_data["economic_calendar"] = calendar_match.group(1).strip()
+    
+    # Extract gap watch
+    gap_match = re.search(r'📈|📉|⚖️\s+\*\*Gap Watch\*\*:\s*(.+)', section_text)
+    if gap_match:
+        watch_data["gap_watch"] = gap_match.group(1).strip()
+    
+    # Extract rotation watch
+    rotation_match = re.search(r'🔄\s+\*\*Rotation Watch\*\*:\s*(.+)', section_text)
+    if rotation_match:
+        watch_data["rotation_watch"] = rotation_match.group(1).strip()
+    
+    return watch_data
 
 
 def convert_ritual_to_json(ritual_path, output_path, report_type):

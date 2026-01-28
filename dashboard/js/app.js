@@ -266,6 +266,11 @@ function renderReport(type, data) {
     if (data.checklist) {
         reportContent.appendChild(renderChecklist(data.checklist));
     }
+    
+    // Render watch tomorrow
+    if (data.watch_tomorrow) {
+        reportContent.appendChild(renderWatchTomorrow(data.watch_tomorrow));
+    }
 }
 
 // ===================================
@@ -460,6 +465,44 @@ function renderChecklist(checklist) {
         <ul>
             ${checklist.items.map(item => `<li>${item}</li>`).join('')}
         </ul>
+    `;
+    
+    content.innerHTML = html;
+    return card;
+}
+
+function renderWatchTomorrow(watchData) {
+    const card = createCard('👀', 'What to Watch Tomorrow');
+    const content = card.querySelector('.card-content');
+    
+    const html = `
+        ${watchData.after_hours ? `
+            <div class="watch-item">
+                <div class="watch-label">📊 After-Hours Earnings</div>
+                <div class="watch-value">${watchData.after_hours}</div>
+            </div>
+        ` : ''}
+        
+        ${watchData.economic_calendar ? `
+            <div class="watch-item">
+                <div class="watch-label">📅 Economic Calendar</div>
+                <div class="watch-value">${watchData.economic_calendar}</div>
+            </div>
+        ` : ''}
+        
+        ${watchData.gap_watch ? `
+            <div class="watch-item">
+                <div class="watch-label">📈 Gap Watch</div>
+                <div class="watch-value">${watchData.gap_watch}</div>
+            </div>
+        ` : ''}
+        
+        ${watchData.rotation_watch ? `
+            <div class="watch-item">
+                <div class="watch-label">🔄 Rotation Watch</div>
+                <div class="watch-value">${watchData.rotation_watch}</div>
+            </div>
+        ` : ''}
     `;
     
     content.innerHTML = html;

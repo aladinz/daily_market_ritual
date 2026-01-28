@@ -1471,6 +1471,115 @@ class MarketRitual:
         
         return ' '.join(forecast_parts)
     
+    def generate_watch_tomorrow(self):
+        """
+        Generate 'What to Watch Tomorrow' section with:
+        - After-hours earnings reactions
+        - Economic calendar events with times
+        - FOMC/Fed decisions
+        - Potential gap setups
+        """
+        watch_items = []
+        
+        # Check tomorrow's scheduled macro events
+        tomorrow = datetime.now() + timedelta(days=1)
+        tomorrow_str = tomorrow.strftime("%A, %B %d")
+        tomorrow_month = tomorrow.month
+        tomorrow_day = tomorrow.day
+        
+        watch_items.append(f"**What to Watch Tomorrow** ({tomorrow_str}):\n")
+        
+        # 1. After-hours earnings reactions
+        try:
+            # Check for significant after-hours moves in major names
+            ah_movers = []
+            major_tickers = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'TSLA', 'META']
+            
+            for ticker in major_tickers:
+                try:
+                    stock = yf.Ticker(ticker)
+                    # Get pre/post market price if available
+                    info = stock.info
+                    if 'postMarketPrice' in info and 'regularMarketPrice' in info:
+                        post_price = info['postMarketPrice']
+                        reg_price = info['regularMarketPrice']
+                        if post_price and reg_price:
+                            ah_change = ((post_price - reg_price) / reg_price) * 100
+                            if abs(ah_change) >= 1.0:  # Only report significant moves
+                                ah_movers.append(f"{ticker} {ah_change:+.1f}%")
+                except:
+                    pass
+            
+            if ah_movers:
+                watch_items.append(f"📊 **After-Hours Earnings Reactions**: {', '.join(ah_movers)}")
+            else:
+                watch_items.append("📊 **After-Hours Earnings Reactions**: No significant moves detected")
+        except Exception as e:
+            watch_items.append("📊 **After-Hours Earnings Reactions**: Data unavailable")
+        
+        # 2. Economic calendar events
+        calendar_events = []
+        
+        # Check macro calendar
+        if tomorrow_month in self.MACRO_CALENDAR_2026:
+            if tomorrow_day in self.MACRO_CALENDAR_2026[tomorrow_month]:
+                event_name = self.MACRO_CALENDAR_2026[tomorrow_month][tomorrow_day]
+                
+                # Add event-specific times
+                if 'CPI' in event_name or 'PPI' in event_name or 'NFP' in event_name:
+                    calendar_events.append(f"{event_name} at 8:30 AM ET")
+                elif 'FOMC' in event_name:
+                    calendar_events.append(f"FOMC Decision at 2:00 PM ET")
+                else:
+                    calendar_events.append(event_name)
+        
+        # Add weekly recurring events
+        day_of_week = tomorrow.weekday()  # 0 = Monday, 4 = Friday
+        
+        if day_of_week == 3:  # Thursday
+            calendar_events.append("Jobless Claims at 8:30 AM ET")
+        
+        if calendar_events:
+            watch_items.append(f"📅 **Economic Calendar**: {', '.join(calendar_events)}")
+        else:
+            watch_items.append("📅 **Economic Calendar**: No major releases scheduled")
+        
+        # 3. Technical setups based on today's action
+        try:
+            # Get SPX data for gap analysis
+            spx = yf.Ticker('^GSPC')
+            spx_hist = spx.history(period='5d')
+            
+            if len(spx_hist) >= 2:
+                today_close = spx_hist['Close'].iloc[-1]
+                today_high = spx_hist['High'].iloc[-1]
+                today_low = spx_hist['Low'].iloc[-1]
+                
+                # Check if we closed near highs or lows
+                range_size = today_high - today_low
+                close_position = (today_close - today_low) / range_size if range_size > 0 else 0.5
+                
+                if close_position > 0.75:
+                    watch_items.append("📈 **Gap Watch**: Strong close near highs - watch for potential gap up and continuation")
+                elif close_position < 0.25:
+                    watch_items.append("📉 **Gap Watch**: Weak close near lows - watch for potential gap down and further weakness")
+                else:
+                    watch_items.append("⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open")
+        except:
+            watch_items.append("⚖️ **Gap Watch**: Technical analysis unavailable")
+        
+        # 4. Sector rotation to monitor
+        if self.sector_data:
+            # Find top and bottom sectors
+            sector_changes = [(name, data.get('change_pct', 0)) for name, data in self.sector_data.items()]
+            sector_changes.sort(key=lambda x: x[1], reverse=True)
+            
+            if sector_changes:
+                top_sector = sector_changes[0][0]
+                watch_items.append(f"🔄 **Rotation Watch**: Monitor {top_sector} for continued strength")
+        
+        return '\n'.join(watch_items)
+    
     # ============================================================================
     # REPORT GENERATION METHODS
     # ============================================================================
@@ -1588,6 +1697,8 @@ Look for: Earnings reactions, overnight news catalysts, technical breakouts.
 **Watchlist**: [Add specific tickers showing strength/weakness]
 
 **Risk Management**: [Set max position size and stop levels]
+
+{self.generate_watch_tomorrow()}
 
 7. One-Line Game Plan
 """
@@ -1723,6 +1834,8 @@ Market Close Snapshot:
 
 6. Tomorrow's Setups
 {tomorrow_forecast}
+
+{self.generate_watch_tomorrow()}
 
 7. One-Sentence Takeaway
 {takeaway}

@@ -2,40 +2,40 @@
   "date": "January 28, 2026",
   "snapshot": {
     "SP500": {
-      "change": "+0.41%",
-      "close": "6978.60"
+      "change": "-0.01%",
+      "close": "6978.03"
     },
     "NASDAQ": {
-      "change": "+0.91%",
-      "close": "23817.10"
+      "change": "+0.17%",
+      "close": "23857.45"
     },
     "DOW": {
-      "change": "-0.83%",
-      "close": "49003.41"
+      "change": "+0.02%",
+      "close": "49015.60"
     }
   },
   "key_levels": {
-    "support": "6962.01",
-    "resistance": "6992.00",
-    "ma_20": "6917.19",
-    "ma_50": "6842.82"
+    "support": "6960.23",
+    "resistance": "6999.05",
+    "ma_20": "6920.81",
+    "ma_50": "6847.63"
   },
   "intraday_levels": {
-    "yesterday_low": "6958.83",
-    "yesterday_high": "6988.82",
-    "yesterday_close": "6978.60",
-    "atr": "61.44",
+    "yesterday_low": "6963.46",
+    "yesterday_high": "7002.28",
+    "yesterday_close": "6978.03",
+    "atr": "60.89",
     "atr_pct": "0.9%",
-    "expected_low": "6917.16",
-    "expected_high": "7040.04"
+    "expected_low": "6917.14",
+    "expected_high": "7038.92"
   },
   "breadth": {
-    "tone": "Neutral",
-    "pct_above_50ma": "64.2%",
-    "advancing": "27",
-    "declining": "26",
-    "ad_ratio": "1.04",
-    "breadth_score": "78"
+    "tone": "Bearish",
+    "pct_above_50ma": "60.4%",
+    "advancing": "19",
+    "declining": "34",
+    "ad_ratio": "0.56",
+    "breadth_score": "76"
   },
   "sentiment": {
     "score": "56",
@@ -45,57 +45,63 @@
     "signal": "Caution on new longs - sentiment stretched"
   },
   "market_context": {
-    "five_day_trend": "Strong uptrend (+2.7%)",
-    "wtd": "+1.5%",
+    "five_day_trend": "Mild uptrend (+1.5%)",
+    "wtd": "+0.9%",
     "ma_structure": "Bullish (above 20 & 50-day MAs)",
-    "volume": "Above Average participation (volume +0% vs. avg)"
+    "volume": "Very Low participation (volume -35% vs. avg) - suspect move"
   },
   "sections": {
-    "tone": "**Mixed/Rotational** - Divergent performance across indices. Tech-led rally.",
-    "catalysts": "**Macro**: Fed policy weighing on sentiment.\n\n**Earnings**: Earnings reports driving stock-specific moves.\n\n**Headlines**: No dominant headlines; normal market conditions.",
-    "sectors": "**Leading**: \n  • Technology (XLK): +1.35%\n  • Utilities (XLU): +1.31%\n  • Energy (XLE): +0.91%\n\n**Lagging**: \n  • Communication Services (XLC): -0.74%\n  • Financials (XLF): -0.77%\n  • Healthcare (XLV): -1.68%\n\n**VIX**: +0.73% (close: 16.47)\n\n**Rotation Notes**: **Balanced**: No clear rotation between defensive and cyclical sectors",
-    "reflection": "→ **Trend Neutral**: Consolidation mode - wait for breakouts\n\n**Watch**: Leaders = Technology (XLK)\n\n**Overnight Watch**: Check futures, Asia session, any headlines\n\n**Tomorrow**: Monitor for bounce or breakdown",
-    "tomorrow_setups": "**Event-Driven Setups**: FOMC tomorrow at 8:30 AM ET. Expect low conviction until the release. Prepare for volatility expansion. Strategy: Wait for the data, then trade the reaction.",
-    "takeaway": "Market edged higher in low-volatility grind."
+    "tone": "**Mixed** - Choppy session with no clear direction",
+    "catalysts": "**Macro**: Fed policy weighing on sentiment. Geopolitical developments creating uncertainty.\n\n**Earnings**: UnitedHealth (UNH) surged +4.0%, likely on earnings or news. Earnings reports driving stock-specific moves.\n\n**Headlines**: Geopolitical headlines affecting sentiment. Headlines focused on Microsoft, Tesla.",
+    "sectors": "**Leading**: \n  • Technology (XLK): +0.80%\n  • Energy (XLE): +0.77%\n  • Financials (XLF): -0.02%\n\n**Lagging**: \n  • Consumer Discretionary (XLY): -0.75%\n  • Real Estate (XLRE): -0.97%\n  • Consumer Staples (XLP): -1.01%\n\n**VIX**: +0.00% (close: 16.35)\n\n**Rotation Notes**: **Risk-On Rotation**: Cyclicals outperforming defensives - growth favored",
+    "reflection": "→ **Trend Neutral**: Consolidation mode - wait for breakouts\n\n**Watch**: Leaders = Technology (XLK)\n\n**Overnight Watch**: Check futures, Asia session, any headlines\n\n**Tomorrow**: Low conviction day - wait for clearer setup",
+    "tomorrow_setups": "**Event-Driven Setups**: FOMC tomorrow at 8:30 AM ET. Expect low conviction until the release. Prepare for volatility expansion. Strategy: Wait for the data, then trade the reaction.\n\n**What to Watch Tomorrow** (Thursday, January 29):\n\n📊 **After-Hours Earnings Reactions**: MSFT -4.8%, GOOGL +1.7%, TSLA +3.0%, META +9.1%\n📅 **Economic Calendar**: FOMC Decision at 2:00 PM ET, Jobless Claims at 8:30 AM ET\n⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open\n🔄 **Rotation Watch**: Monitor Technology for continued strength",
+    "takeaway": "Choppy, directionless session with no clear winners."
   },
   "rs_leaders": [
     {
       "ticker": "GOOGL",
-      "price": "334.55",
+      "price": "336.01",
       "rs_score": "100",
-      "stock_return": "6.7",
-      "relative_perf": "6.0",
-      "pct_from_high": "-1.7",
-      "vol_increase": "11"
+      "stock_return": "7.2",
+      "relative_perf": "6.1",
+      "pct_from_high": "-1.3",
+      "vol_increase": "3"
     },
     {
       "ticker": "JNJ",
-      "price": "224.44",
+      "price": "227.72",
       "rs_score": "100",
-      "stock_return": "8.1",
-      "relative_perf": "7.4",
-      "pct_from_high": "-0.5",
-      "vol_increase": "55"
+      "stock_return": "9.7",
+      "relative_perf": "8.7",
+      "pct_from_high": "-0.4",
+      "vol_increase": "35"
     },
     {
       "ticker": "WMT",
-      "price": "116.94",
+      "price": "116.57",
       "rs_score": "100",
-      "stock_return": "4.7",
-      "relative_perf": "4.0",
-      "pct_from_high": "-3.8",
-      "vol_increase": "227"
+      "stock_return": "3.6",
+      "relative_perf": "2.5",
+      "pct_from_high": "-4.2",
+      "vol_increase": "193"
     }
   ],
   "checklist": {
-    "rating": "8/10",
-    "interpretation": "Strong Bullish",
+    "rating": "7/10",
+    "interpretation": "Neutral-Bullish",
     "items": [
       "✓ Market above 20-day MA (bullish structure)",
       "→ VIX moderate (15-20) - normal conditions",
       "✓ Growth sectors leading (risk-on signal)",
-      "→ Volume near average",
+      "✗ Volume below average (weak move)",
       "✓ 5-day uptrend intact"
     ]
+  },
+  "watch_tomorrow": {
+    "after_hours": "MSFT -4.8%, GOOGL +1.7%, TSLA +3.0%, META +9.1%",
+    "economic_calendar": "FOMC Decision at 2:00 PM ET, Jobless Claims at 8:30 AM ET",
+    "gap_watch": "Mid-range close - expect potential range-bound open",
+    "rotation_watch": "Monitor Technology for continued strength"
   }
 }

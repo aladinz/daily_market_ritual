@@ -99,5 +99,11 @@
       "→ Volume near average",
       "✓ 5-day uptrend intact"
     ]
+  },
+  "watch_tomorrow": {
+    "after_hours": "",
+    "economic_calendar": "",
+    "gap_watch": "",
+    "rotation_watch": ""
   }
 }
