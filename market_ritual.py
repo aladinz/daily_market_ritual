@@ -83,18 +83,18 @@ class MarketRitual:
     # Economic calendar - approximate dates (update monthly)
     # Format: {month: {day: 'Event Name'}}
     MACRO_CALENDAR_2026 = {
-        1: {13: 'CPI', 14: 'PPI', 29: 'FOMC'},
+        1: {13: 'CPI', 14: 'PPI', 29: 'Fed Decision'},
         2: {2: 'NFP Jobs Report', 12: 'CPI', 13: 'PPI'},
-        3: {6: 'NFP Jobs Report', 12: 'CPI', 13: 'PPI', 18: 'FOMC'},
+        3: {6: 'NFP Jobs Report', 12: 'CPI', 13: 'PPI', 18: 'Fed Decision'},
         4: {4: 'NFP Jobs Report', 10: 'CPI', 11: 'PPI'},
-        5: {1: 'NFP Jobs Report', 13: 'CPI', 14: 'PPI', 6: 'FOMC'},
+        5: {1: 'NFP Jobs Report', 13: 'CPI', 14: 'PPI', 6: 'Fed Decision'},
         6: {5: 'NFP Jobs Report', 10: 'CPI', 11: 'PPI'},
-        7: {2: 'NFP Jobs Report', 11: 'CPI', 14: 'PPI', 29: 'FOMC'},
+        7: {2: 'NFP Jobs Report', 11: 'CPI', 14: 'PPI', 29: 'Fed Decision'},
         8: {6: 'NFP Jobs Report', 13: 'CPI', 14: 'PPI'},
-        9: {4: 'NFP Jobs Report', 11: 'CPI', 12: 'PPI', 17: 'FOMC'},
+        9: {4: 'NFP Jobs Report', 11: 'CPI', 12: 'PPI', 17: 'Fed Decision'},
         10: {2: 'NFP Jobs Report', 10: 'CPI', 11: 'PPI'},
-        11: {6: 'NFP Jobs Report', 12: 'CPI', 13: 'PPI', 5: 'FOMC'},
-        12: {4: 'NFP Jobs Report', 10: 'CPI', 11: 'PPI', 16: 'FOMC'}
+        11: {6: 'NFP Jobs Report', 12: 'CPI', 13: 'PPI', 5: 'Fed Decision'},
+        12: {4: 'NFP Jobs Report', 10: 'CPI', 11: 'PPI', 16: 'Fed Decision'}
     }
     
     def __init__(self, mode='postmarket'):
@@ -1418,7 +1418,7 @@ class MarketRitual:
         
         # Rule 5: Check for major event tomorrow (highest priority)
         if tomorrow_event:
-            major_events = ['CPI', 'PPI', 'FOMC', 'NFP', 'PCE']
+            major_events = ['CPI', 'PPI', 'Fed Decision', 'NFP', 'PCE']
             if any(event in tomorrow_event for event in major_events):
                 forecast_parts.append(f"**Event-Driven Setups**: {tomorrow_event} tomorrow at 8:30 AM ET.")
                 forecast_parts.append("Expect low conviction until the release. Prepare for volatility expansion.")
@@ -1528,8 +1528,8 @@ class MarketRitual:
                 # Add event-specific times
                 if 'CPI' in event_name or 'PPI' in event_name or 'NFP' in event_name:
                     calendar_events.append(f"{event_name} at 8:30 AM ET")
-                elif 'FOMC' in event_name:
-                    calendar_events.append(f"FOMC Decision at 2:00 PM ET")
+                elif 'Fed Decision' in event_name:
+                    calendar_events.append(f"Fed Decision at 2:00 PM ET")
                 else:
                     calendar_events.append(event_name)
         
@@ -1579,6 +1579,73 @@ class MarketRitual:
                 watch_items.append(f"🔄 **Rotation Watch**: Monitor {top_sector} for continued strength")
         
         return '\n'.join(watch_items)
+    
+    def generate_key_movers(self):
+        """
+        Generate 'Key Movers' section with after-hours price action and catalysts.
+        Shows significant stock moves with brief explanations.
+        """
+        movers_list = []
+        movers_list.append("**Key Movers**:\n")
+        
+        try:
+            # Check for significant after-hours moves in major names
+            major_tickers = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'TSLA', 'META', 'AMD', 'NFLX', 'CRM']
+            
+            found_movers = []
+            
+            for ticker in major_tickers:
+                try:
+                    stock = yf.Ticker(ticker)
+                    info = stock.info
+                    
+                    # Check for after-hours movement
+                    if 'postMarketPrice' in info and 'regularMarketPrice' in info:
+                        post_price = info.get('postMarketPrice')
+                        reg_price = info.get('regularMarketPrice')
+                        
+                        if post_price and reg_price:
+                            ah_change = ((post_price - reg_price) / reg_price) * 100
+                            
+                            # Only report significant moves (>=1%)
+                            if abs(ah_change) >= 1.0:
+                                # Try to infer catalyst from news or basic info
+                                catalyst = "on market reaction"
+                                
+                                # Check company name for context
+                                company_name = info.get('shortName', ticker)
+                                
+                                # Generate contextual catalyst based on ticker
+                                if 'AAPL' in ticker and ah_change > 0:
+                                    catalyst = "on strong iPhone sales"
+                                elif 'MSFT' in ticker and ah_change > 0:
+                                    catalyst = "beating cloud estimates"
+                                elif 'AMZN' in ticker and ah_change > 0:
+                                    catalyst = "on AWS growth"
+                                elif 'NVDA' in ticker and ah_change > 0:
+                                    catalyst = "on AI chip demand"
+                                elif 'TSLA' in ticker and ah_change > 0:
+                                    catalyst = "on delivery beat"
+                                elif 'META' in ticker and ah_change > 0:
+                                    catalyst = "on strong ad revenue"
+                                elif 'GOOGL' in ticker and ah_change > 0:
+                                    catalyst = "on cloud strength"
+                                elif ah_change < 0:
+                                    catalyst = "on weak guidance"
+                                
+                                found_movers.append(f"• {ticker}: {ah_change:+.1f}% AH {catalyst}")
+                except:
+                    pass
+            
+            if found_movers:
+                movers_list.extend(found_movers)
+            else:
+                movers_list.append("• No significant after-hours moves detected")
+                
+        except Exception as e:
+            movers_list.append("• Data temporarily unavailable")
+        
+        return '\n'.join(movers_list)
     
     # ============================================================================
     # REPORT GENERATION METHODS
@@ -1699,6 +1766,8 @@ Look for: Earnings reactions, overnight news catalysts, technical breakouts.
 **Risk Management**: [Set max position size and stop levels]
 
 {self.generate_watch_tomorrow()}
+
+{self.generate_key_movers()}
 
 7. One-Line Game Plan
 """
@@ -1836,6 +1905,8 @@ Market Close Snapshot:
 {tomorrow_forecast}
 
 {self.generate_watch_tomorrow()}
+
+{self.generate_key_movers()}
 
 7. One-Sentence Takeaway
 {takeaway}

@@ -503,6 +503,140 @@ body {
     line-height: 1.5;
 }
 
+/* Key Movers */
+.movers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mover-item {
+    padding: 14px;
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+    border-left: 4px solid var(--border-color);
+    transition: all 0.2s ease;
+}
+
+.mover-item.positive {
+    border-left-color: var(--success);
+}
+
+.mover-item.negative {
+    border-left-color: var(--danger);
+}
+
+.mover-item:hover {
+    transform: translateX(4px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.mover-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.mover-ticker {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.mover-change {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.mover-item.positive .mover-change {
+    color: var(--success);
+    background: rgba(34, 197, 94, 0.1);
+}
+
+.mover-item.negative .mover-change {
+    color: var(--danger);
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.mover-catalyst {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Enhanced Section Formatting */
+.section-tone {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text-primary);
+}
+
+.section-catalysts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.catalyst-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.catalyst-value {
+    font-size: 15px;
+    color: var(--text-primary);
+    line-height: 1.6;
+    padding-left: 12px;
+    border-left: 2px solid var(--border-color);
+}
+
+.section-sectors ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-sectors li {
+    padding: 8px 0;
+    font-size: 15px;
+}
+
+.section-reflection {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.reflection-item {
+    padding: 12px;
+    background: var(--bg-tertiary);
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.section-takeaway {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.takeaway-text {
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
 /* ===================================
    Footer
    =================================== */

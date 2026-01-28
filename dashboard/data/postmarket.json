@@ -55,7 +55,7 @@
     "catalysts": "**Macro**: Fed policy weighing on sentiment. Geopolitical developments creating uncertainty.\n\n**Earnings**: UnitedHealth (UNH) surged +4.0%, likely on earnings or news. Earnings reports driving stock-specific moves.\n\n**Headlines**: Geopolitical headlines affecting sentiment. Headlines focused on Microsoft, Tesla.",
     "sectors": "**Leading**: \n  • Technology (XLK): +0.80%\n  • Energy (XLE): +0.77%\n  • Financials (XLF): -0.02%\n\n**Lagging**: \n  • Consumer Discretionary (XLY): -0.75%\n  • Real Estate (XLRE): -0.97%\n  • Consumer Staples (XLP): -1.01%\n\n**VIX**: +0.00% (close: 16.35)\n\n**Rotation Notes**: **Risk-On Rotation**: Cyclicals outperforming defensives - growth favored",
     "reflection": "→ **Trend Neutral**: Consolidation mode - wait for breakouts\n\n**Watch**: Leaders = Technology (XLK)\n\n**Overnight Watch**: Check futures, Asia session, any headlines\n\n**Tomorrow**: Low conviction day - wait for clearer setup",
-    "tomorrow_setups": "**Event-Driven Setups**: FOMC tomorrow at 8:30 AM ET. Expect low conviction until the release. Prepare for volatility expansion. Strategy: Wait for the data, then trade the reaction.\n\n**What to Watch Tomorrow** (Thursday, January 29):\n\n📊 **After-Hours Earnings Reactions**: MSFT -4.8%, GOOGL +1.7%, TSLA +3.0%, META +9.1%\n📅 **Economic Calendar**: FOMC Decision at 2:00 PM ET, Jobless Claims at 8:30 AM ET\n⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open\n🔄 **Rotation Watch**: Monitor Technology for continued strength",
+    "tomorrow_setups": "**Event-Driven Setups**: Fed Decision tomorrow at 8:30 AM ET. Expect low conviction until the release. Prepare for volatility expansion. Strategy: Wait for the data, then trade the reaction.\n\n**What to Watch Tomorrow** (Thursday, January 29):\n\n📊 **After-Hours Earnings Reactions**: MSFT -4.8%, GOOGL +1.6%, TSLA +3.1%, META +9.8%\n📅 **Economic Calendar**: Fed Decision at 2:00 PM ET, Jobless Claims at 8:30 AM ET\n⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open\n🔄 **Rotation Watch**: Monitor Technology for continued strength\n\n**Key Movers**:\n\n• MSFT: -4.8% AH on weak guidance\n• GOOGL: +1.6% AH on cloud strength\n• TSLA: +3.1% AH on delivery beat\n• META: +9.8% AH on strong ad revenue\n• AMD: +1.0% AH on market reaction\n• CRM: -1.5% AH on weak guidance",
     "takeaway": "Choppy, directionless session with no clear winners."
   },
   "rs_leaders": [
@@ -75,7 +75,7 @@
       "stock_return": "9.7",
       "relative_perf": "8.7",
       "pct_from_high": "-0.4",
-      "vol_increase": "35"
+      "vol_increase": "37"
     },
     {
       "ticker": "WMT",
@@ -84,7 +84,7 @@
       "stock_return": "3.6",
       "relative_perf": "2.5",
       "pct_from_high": "-4.2",
-      "vol_increase": "193"
+      "vol_increase": "194"
     }
   ],
   "checklist": {
@@ -99,9 +99,41 @@
     ]
   },
   "watch_tomorrow": {
-    "after_hours": "MSFT -4.8%, GOOGL +1.7%, TSLA +3.0%, META +9.1%",
-    "economic_calendar": "FOMC Decision at 2:00 PM ET, Jobless Claims at 8:30 AM ET",
+    "after_hours": "MSFT -4.8%, GOOGL +1.6%, TSLA +3.1%, META +9.8%",
+    "economic_calendar": "Fed Decision at 2:00 PM ET, Jobless Claims at 8:30 AM ET",
     "gap_watch": "Mid-range close - expect potential range-bound open",
     "rotation_watch": "Monitor Technology for continued strength"
-  }
+  },
+  "key_movers": [
+    {
+      "ticker": "MSFT",
+      "change": "-4.8%",
+      "catalyst": "on weak guidance"
+    },
+    {
+      "ticker": "GOOGL",
+      "change": "+1.6%",
+      "catalyst": "on cloud strength"
+    },
+    {
+      "ticker": "TSLA",
+      "change": "+3.1%",
+      "catalyst": "on delivery beat"
+    },
+    {
+      "ticker": "META",
+      "change": "+9.8%",
+      "catalyst": "on strong ad revenue"
+    },
+    {
+      "ticker": "AMD",
+      "change": "+1.0%",
+      "catalyst": "on market reaction"
+    },
+    {
+      "ticker": "CRM",
+      "change": "-1.5%",
+      "catalyst": "on weak guidance"
+    }
+  ]
 }

@@ -60,11 +60,11 @@ Market Close Snapshot:
   2. JNJ ($227.72) - RS Score: 100/100
      • 20-Day: +9.7% (vs SPX: +8.7%)
      • Distance from 52w High: -0.4%
-     • Volume: +35% vs 10-day avg
+     • Volume: +37% vs 10-day avg
   3. WMT ($116.57) - RS Score: 100/100
      • 20-Day: +3.6% (vs SPX: +2.5%)
      • Distance from 52w High: -4.2%
-     • Volume: +193% vs 10-day avg
+     • Volume: +194% vs 10-day avg
 
 4. Swing-Trader Reflection
 → **Trend Neutral**: Consolidation mode - wait for breakouts
@@ -85,14 +85,23 @@ Market Close Snapshot:
 **Rating**: 7/10 (Neutral-Bullish)
 
 6. Tomorrow's Setups
-**Event-Driven Setups**: FOMC tomorrow at 8:30 AM ET. Expect low conviction until the release. Prepare for volatility expansion. Strategy: Wait for the data, then trade the reaction.
+**Event-Driven Setups**: Fed Decision tomorrow at 8:30 AM ET. Expect low conviction until the release. Prepare for volatility expansion. Strategy: Wait for the data, then trade the reaction.
 
 **What to Watch Tomorrow** (Thursday, January 29):
 
-📊 **After-Hours Earnings Reactions**: MSFT -4.8%, GOOGL +1.7%, TSLA +3.0%, META +9.1%
-📅 **Economic Calendar**: FOMC Decision at 2:00 PM ET, Jobless Claims at 8:30 AM ET
+📊 **After-Hours Earnings Reactions**: MSFT -4.8%, GOOGL +1.6%, TSLA +3.1%, META +9.8%
+📅 **Economic Calendar**: Fed Decision at 2:00 PM ET, Jobless Claims at 8:30 AM ET
 ⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open
 🔄 **Rotation Watch**: Monitor Technology for continued strength
+
+**Key Movers**:
+
+• MSFT: -4.8% AH on weak guidance
+• GOOGL: +1.6% AH on cloud strength
+• TSLA: +3.1% AH on delivery beat
+• META: +9.8% AH on strong ad revenue
+• AMD: +1.0% AH on market reaction
+• CRM: -1.5% AH on weak guidance
 
 7. One-Sentence Takeaway
 Choppy, directionless session with no clear winners.

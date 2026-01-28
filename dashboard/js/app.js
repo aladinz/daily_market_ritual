@@ -271,6 +271,11 @@ function renderReport(type, data) {
     if (data.watch_tomorrow) {
         reportContent.appendChild(renderWatchTomorrow(data.watch_tomorrow));
     }
+    
+    // Render key movers
+    if (data.key_movers) {
+        reportContent.appendChild(renderKeyMovers(data.key_movers));
+    }
 }
 
 // ===================================
@@ -414,18 +419,61 @@ function renderSection(title, content) {
         'One-Line Game Plan': '⚡',
         'Tone of Today\'s Session': '📊',
         'What Drove Today\'s Moves': '💡',
+        'Catalysts': '💡',
         'Sector Leadership & Volatility': '📈',
+        'Sectors': '📈',
         'Swing-Trader Reflection': '🤔',
+        'Reflection': '🤔',
         'Tomorrow\'s Setups': '🔮',
-        'One-Sentence Takeaway': '💭'
+        'One-Sentence Takeaway': '💭',
+        'Takeaway': '💭'
     };
     
     const icon = iconMap[title] || '📄';
     const card = createCard(icon, title);
     const cardContent = card.querySelector('.card-content');
     
-    // Format content (convert newlines to paragraphs)
-    const formattedContent = formatContent(content);
+    // Enhanced formatting for specific sections
+    let formattedContent = '';
+    
+    if (title === 'Tone of Today\'s Session' || title === 'Tone') {
+        // Enhanced Tone formatting
+        formattedContent = `<div class="section-tone">${formatContent(content)}</div>`;
+    } else if (title === 'What Drove Today\'s Moves' || title === 'Catalysts') {
+        // Enhanced Catalysts formatting with structured layout
+        const parts = content.split('**');
+        formattedContent = '<div class="section-catalysts">';
+        for (let i = 0; i < parts.length; i++) {
+            if (i % 2 === 1) { // Bold parts
+                formattedContent += `<div class="catalyst-label">${parts[i]}</div>`;
+            } else if (parts[i].trim()) {
+                formattedContent += `<div class="catalyst-value">${parts[i].trim()}</div>`;
+            }
+        }
+        formattedContent += '</div>';
+    } else if (title === 'Sector Leadership & Volatility' || title === 'Sectors') {
+        // Enhanced Sectors formatting
+        formattedContent = `<div class="section-sectors">${formatContent(content)}</div>`;
+    } else if (title === 'Swing-Trader Reflection' || title === 'Reflection') {
+        // Enhanced Reflection formatting with better structure
+        const lines = content.split('\n').filter(l => l.trim());
+        formattedContent = '<div class="section-reflection">';
+        lines.forEach(line => {
+            if (line.includes('**')) {
+                formattedContent += `<div class="reflection-item">${formatContent(line)}</div>`;
+            } else {
+                formattedContent += `<p>${line}</p>`;
+            }
+        });
+        formattedContent += '</div>';
+    } else if (title === 'One-Sentence Takeaway' || title === 'Takeaway') {
+        // Enhanced Takeaway formatting - make it stand out
+        formattedContent = `<div class="section-takeaway"><p class="takeaway-text">${content}</p></div>`;
+    } else {
+        // Default formatting
+        formattedContent = formatContent(content);
+    }
+    
     cardContent.innerHTML = formattedContent;
     
     return card;
@@ -503,6 +551,33 @@ function renderWatchTomorrow(watchData) {
                 <div class="watch-value">${watchData.rotation_watch}</div>
             </div>
         ` : ''}
+    `;
+    
+    content.innerHTML = html;
+    return card;
+}
+
+function renderKeyMovers(movers) {
+    const card = createCard('🚀', 'Key Movers');
+    const content = card.querySelector('.card-content');
+    
+    if (!movers || movers.length === 0) {
+        content.innerHTML = '<p>No significant moves detected</p>';
+        return card;
+    }
+    
+    const html = `
+        <div class="movers-list">
+            ${movers.map(mover => `
+                <div class="mover-item ${mover.change.startsWith('+') ? 'positive' : 'negative'}">
+                    <div class="mover-header">
+                        <span class="mover-ticker">${mover.ticker}</span>
+                        <span class="mover-change">${mover.change}</span>
+                    </div>
+                    <div class="mover-catalyst">${mover.catalyst}</div>
+                </div>
+            `).join('')}
+        </div>
     `;
     
     content.innerHTML = html;

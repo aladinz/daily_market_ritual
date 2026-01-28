@@ -24,7 +24,8 @@ def parse_ritual_report(report_text, report_type):
         "sections": {},
         "rs_leaders": [],
         "checklist": {},
-        "watch_tomorrow": {}
+        "watch_tomorrow": {},
+        "key_movers": []
     }
     
     # Extract snapshot (futures or market close)
@@ -59,6 +60,9 @@ def parse_ritual_report(report_text, report_type):
     
     # Extract watch tomorrow
     data["watch_tomorrow"] = extract_watch_tomorrow(report_text)
+    
+    # Extract key movers
+    data["key_movers"] = extract_key_movers(report_text)
     
     return data
 
@@ -360,6 +364,31 @@ def extract_watch_tomorrow(text):
         watch_data["rotation_watch"] = rotation_match.group(1).strip()
     
     return watch_data
+
+
+def extract_key_movers(text):
+    """Extract 'Key Movers' section."""
+    movers = []
+    
+    # Find the Key Movers section
+    movers_section = re.search(r'\*\*Key Movers\*\*:\s*\n(.+?)(?=\n\d+\.|$)', text, re.DOTALL)
+    if not movers_section:
+        return movers
+    
+    section_text = movers_section.group(1)
+    
+    # Extract individual movers (format: • TICKER: +X.X% AH catalyst)
+    mover_pattern = r'•\s+([A-Z]+):\s+([\+\-][\d\.]+%)\s+AH\s+(.+)'
+    matches = re.finditer(mover_pattern, section_text)
+    
+    for match in matches:
+        movers.append({
+            "ticker": match.group(1),
+            "change": match.group(2),
+            "catalyst": match.group(3).strip()
+        })
+    
+    return movers
 
 
 def convert_ritual_to_json(ritual_path, output_path, report_type):
