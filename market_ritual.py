@@ -1420,7 +1420,13 @@ class MarketRitual:
         if tomorrow_event:
             major_events = ['CPI', 'PPI', 'Fed Decision', 'NFP', 'PCE']
             if any(event in tomorrow_event for event in major_events):
-                forecast_parts.append(f"**Event-Driven Setups**: {tomorrow_event} tomorrow at 8:30 AM ET.")
+                # Determine correct time for the event
+                if 'Fed Decision' in tomorrow_event:
+                    event_time = "2:00 PM ET"
+                else:
+                    event_time = "8:30 AM ET"
+                
+                forecast_parts.append(f"**Event-Driven Setups**: {tomorrow_event} tomorrow at {event_time}.")
                 forecast_parts.append("Expect low conviction until the release. Prepare for volatility expansion.")
                 forecast_parts.append("Strategy: Wait for the data, then trade the reaction.")
                 return ' '.join(forecast_parts)
