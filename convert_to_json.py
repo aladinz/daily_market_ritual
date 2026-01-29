@@ -34,40 +34,73 @@ def parse_ritual_report(report_text, report_type):
     }
     
     # Extract snapshot (futures or market close)
-    if report_type == 'premarket':
-        data["snapshot"] = extract_futures_snapshot(report_text)
-    else:
-        data["snapshot"] = extract_market_snapshot(report_text)
+    try:
+        if report_type == 'premarket':
+            data["snapshot"] = extract_futures_snapshot(report_text)
+        else:
+            data["snapshot"] = extract_market_snapshot(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract snapshot: {e}")
     
     # Extract key levels
-    data["key_levels"] = extract_key_levels(report_text)
+    try:
+        data["key_levels"] = extract_key_levels(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract key levels: {e}")
     
     # Extract intraday levels
-    data["intraday_levels"] = extract_intraday_levels(report_text)
+    try:
+        data["intraday_levels"] = extract_intraday_levels(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract intraday levels: {e}")
     
     # Extract breadth
-    data["breadth"] = extract_breadth(report_text)
+    try:
+        data["breadth"] = extract_breadth(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract breadth: {e}")
     
     # Extract sentiment
-    data["sentiment"] = extract_sentiment(report_text)
+    try:
+        data["sentiment"] = extract_sentiment(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract sentiment: {e}")
     
     # Extract market context
-    data["market_context"] = extract_market_context(report_text)
+    try:
+        data["market_context"] = extract_market_context(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract market context: {e}")
     
     # Extract sections
-    data["sections"] = extract_sections(report_text, report_type)
+    try:
+        data["sections"] = extract_sections(report_text, report_type)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract sections: {e}")
     
     # Extract RS leaders
-    data["rs_leaders"] = extract_rs_leaders(report_text)
+    try:
+        data["rs_leaders"] = extract_rs_leaders(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract RS leaders: {e}")
     
     # Extract checklist
-    data["checklist"] = extract_checklist(report_text)
+    try:
+        data["checklist"] = extract_checklist(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract checklist: {e}")
     
     # Extract watch tomorrow
-    data["watch_tomorrow"] = extract_watch_tomorrow(report_text)
+    try:
+        data["watch_tomorrow"] = extract_watch_tomorrow(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract watch tomorrow: {e}")
     
     # Extract key movers
-    data["key_movers"] = extract_key_movers(report_text)
+    try:
+        data["key_movers"] = extract_key_movers(report_text)
+    except Exception as e:
+        print(f"    ⚠ Warning: Failed to extract key movers: {e}")
     
     return data
 
@@ -359,7 +392,7 @@ def extract_watch_tomorrow(text):
         watch_data["economic_calendar"] = calendar_match.group(1).strip()
     
     # Extract gap watch
-    gap_match = re.search(r'📈|📉|⚖️\s+\*\*Gap Watch\*\*:\s*(.+)', section_text)
+    gap_match = re.search(r'[📈📉⚖️]\s+\*\*Gap Watch\*\*:\s*(.+)', section_text)
     if gap_match:
         watch_data["gap_watch"] = gap_match.group(1).strip()
     

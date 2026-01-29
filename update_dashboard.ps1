@@ -57,7 +57,7 @@ Write-Host ""
 Write-Host "[2/4] Converting to JSON..." -ForegroundColor Yellow
 
 try {
-    & python convert_to_json.py
+    & .\.venv\Scripts\python.exe convert_to_json.py
     
     if ($LASTEXITCODE -ne 0) {
         throw "JSON conversion failed"
