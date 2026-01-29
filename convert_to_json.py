@@ -13,8 +13,13 @@ from datetime import datetime
 def parse_ritual_report(report_text, report_type):
     """Parse text ritual report into structured JSON."""
     
+    # Generate timestamp in CST
+    now = datetime.now()
+    
     data = {
         "date": extract_date(report_text),
+        "last_updated": now.strftime("%B %d, %Y at %I:%M %p CST"),
+        "report_type": "Pre-Market" if report_type == 'premarket' else "Post-Market",
         "snapshot": {},
         "key_levels": {},
         "intraday_levels": {},

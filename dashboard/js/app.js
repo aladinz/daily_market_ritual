@@ -216,6 +216,16 @@ function renderReport(type, data) {
     document.getElementById('reportBadge').textContent = 
         type === 'premarket' ? 'Morning Brief' : 'Daily Summary';
     
+    // Update heartbeat (last updated)
+    const heartbeat = document.getElementById('heartbeat');
+    const heartbeatText = document.getElementById('heartbeatText');
+    if (data.last_updated && data.report_type) {
+        heartbeatText.innerHTML = `Last updated: <strong>${data.last_updated}</strong> (${data.report_type})`;
+        heartbeat.style.display = 'flex';
+    } else {
+        heartbeat.style.display = 'none';
+    }
+    
     // Render content
     const reportContent = document.getElementById('reportContent');
     reportContent.innerHTML = '';
