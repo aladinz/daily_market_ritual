@@ -1,75 +1,75 @@
-Date: January 28, 2026
+Date: January 29, 2026
 Market Close Snapshot:
-- S&P 500: -0.01% (close: 6978.03)
-- Nasdaq: +0.17% (close: 23857.45)
-- Dow Jones: +0.02% (close: 49015.60)
+- S&P 500: -0.13% (close: 6969.01)
+- Nasdaq: -0.72% (close: 23685.12)
+- Dow Jones: +0.11% (close: 49071.56)
 
 **Key Levels for Swing Traders**:
-- SPX Support: 6960.23 | Resistance: 6999.05
-- SPX 20-day MA: 6920.81 | 50-day MA: 6847.63
+- SPX Support: 6895.59 | Resistance: 7017.63
+- SPX 20-day MA: 6924.45 | 50-day MA: 6852.33
 
 **Intraday Reference Levels** (SPX):
-  • Yesterday's Range: 6963.46 - 7002.28
-  • Yesterday's Close: 6978.03
-  • ATR (14-day): 60.89 points (0.9%)
-  • Expected Today's Range: 6917.14 - 7038.92
+  • Yesterday's Range: 6870.80 - 6992.84
+  • Yesterday's Close: 6969.01
+  • ATR (14-day): 67.33 points (1.0%)
+  • Expected Today's Range: 6901.68 - 7036.34
 
-**Market Breadth**: Bearish
-  • 60.4% of stocks above 50-day MA
-  • Advance/Decline: 19/34 (ratio: 0.56)
-  • Breadth Score: 76/100
+**Market Breadth**: Neutral
+  • 56.6% of stocks above 50-day MA
+  • Advance/Decline: 29/24 (ratio: 1.21)
+  • Breadth Score: 74/100
 
-**Sentiment - CNN Fear & Greed Index**: 56/100 (Greed)  [VIX-based proxy]
-  ███████████░░░░░░░░░
-  Signal: Caution on new longs - sentiment stretched
+**Sentiment - CNN Fear & Greed Index**: 50/100 (Neutral)  [VIX-based proxy]
+  ██████████░░░░░░░░░░
+  Signal: Balanced sentiment - no extreme
 
 **Market Context**:
-**5-Day Trend**: Mild uptrend (+1.5%) | **Week-to-Date**: +0.9% | **MA Structure**: Bullish (above 20 & 50-day MAs)
-**Volume**: Very Low participation (volume -35% vs. avg) - suspect move
+**5-Day Trend**: Mild uptrend (+0.8%) | **Week-to-Date**: +0.8% | **MA Structure**: Bullish (above 20 & 50-day MAs)
+**Volume**: Very Low participation (volume -21% vs. avg) - suspect move
 
 1. Tone of Today's Session
 **Mixed** - Choppy session with no clear direction
 
 2. What Drove Today's Moves
-**Macro**: Fed policy weighing on sentiment. Geopolitical developments creating uncertainty.
+**Macro**: **Fed Decision Release**: Market reacted to today's data. Fed policy weighing on sentiment. Geopolitical developments creating uncertainty.
 
-**Earnings**: UnitedHealth (UNH) surged +4.0%, likely on earnings or news. Earnings reports driving stock-specific moves.
+**Earnings**: Meta (META) surged +10.4%, likely on earnings or news. Earnings reports driving stock-specific moves.
 
-**Headlines**: Geopolitical headlines affecting sentiment. Headlines focused on Microsoft, Tesla.
+**Headlines**: Market tone shift detected in headlines. Geopolitical headlines affecting sentiment. Headlines focused on Microsoft, Amazon.
 
 3. Sector Leadership & Volatility
 **Leading**: 
-  • Technology (XLK): +0.80%
-  • Energy (XLE): +0.77%
-  • Financials (XLF): -0.02%
+  • Communication Services (XLC): +2.60%
+  • Real Estate (XLRE): +1.27%
+  • Financials (XLF): +1.06%
 
 **Lagging**: 
-  • Consumer Discretionary (XLY): -0.75%
-  • Real Estate (XLRE): -0.97%
-  • Consumer Staples (XLP): -1.01%
+  • Healthcare (XLV): -0.32%
+  • Consumer Discretionary (XLY): -0.48%
+  • Technology (XLK): -1.58%
 
-**VIX**: +0.00% (close: 16.35)
+**VIX**: +3.24% (close: 16.88)
 
-**Rotation Notes**: **Risk-On Rotation**: Cyclicals outperforming defensives - growth favored
+**Rotation Notes**: **Balanced**: No clear rotation between defensive and cyclical sectors
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
-  1. GOOGL ($336.01) - RS Score: 100/100
-     • 20-Day: +7.2% (vs SPX: +6.1%)
-     • Distance from 52w High: -1.3%
+  1. GOOGL ($338.25) - RS Score: 100/100
+     • 20-Day: +7.8% (vs SPX: +6.7%)
+     • Distance from 52w High: -1.2%
      • Volume: +3% vs 10-day avg
-  2. JNJ ($227.72) - RS Score: 100/100
-     • 20-Day: +9.7% (vs SPX: +8.7%)
-     • Distance from 52w High: -0.4%
-     • Volume: +37% vs 10-day avg
-  3. WMT ($116.57) - RS Score: 100/100
-     • 20-Day: +3.6% (vs SPX: +2.5%)
-     • Distance from 52w High: -4.2%
-     • Volume: +194% vs 10-day avg
+  2. JNJ ($227.29) - RS Score: 100/100
+     • 20-Day: +9.8% (vs SPX: +8.8%)
+     • Distance from 52w High: -1.2%
+     • Volume: +21% vs 10-day avg
+  3. WMT ($117.41) - RS Score: 100/100
+     • 20-Day: +4.9% (vs SPX: +3.9%)
+     • Distance from 52w High: -3.5%
+     • Volume: +162% vs 10-day avg
 
 4. Swing-Trader Reflection
 → **Trend Neutral**: Consolidation mode - wait for breakouts
 
-**Watch**: Leaders = Technology (XLK)
+**Watch**: Leaders = Communication Services (XLC)
 
 **Overnight Watch**: Check futures, Asia session, any headlines
 
@@ -78,30 +78,25 @@ Market Close Snapshot:
 5. Swing Trade Checklist
 ✓ Market above 20-day MA (bullish structure)
 → VIX moderate (15-20) - normal conditions
-✓ Growth sectors leading (risk-on signal)
+→ Mixed sector leadership
 ✗ Volume below average (weak move)
-✓ 5-day uptrend intact
+→ 5-day sideways action
 
-**Rating**: 7/10 (Neutral-Bullish)
+**Rating**: 5/10 (Neutral)
 
 6. Tomorrow's Setups
-**Event-Driven Setups**: Fed Decision tomorrow at 2:00 PM ET. Expect low conviction until the release. Prepare for volatility expansion. Strategy: Wait for the data, then trade the reaction.
+**Neutral Outlook**: Market showing no clear directional bias. Wait for clearer price action. Let the market tip its hand before committing. Strategy: Patience over action - better setups will emerge.
 
-**What to Watch Tomorrow** (Thursday, January 29):
+**What to Watch Tomorrow** (Friday, January 30):
 
-📊 **After-Hours Earnings Reactions**: MSFT -5.1%, GOOGL +2.2%, TSLA +3.8%, META +9.2%
-📅 **Economic Calendar**: Fed Decision at 2:00 PM ET, Jobless Claims at 8:30 AM ET
-⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open
-🔄 **Rotation Watch**: Monitor Technology for continued strength
+📊 **After-Hours Earnings Reactions**: TSLA +2.8%
+📅 **Economic Calendar**: No major releases scheduled
+📈 **Gap Watch**: Strong close near highs - watch for potential gap up and continuation
+🔄 **Rotation Watch**: Monitor Communication Services for continued strength
 
 **Key Movers**:
 
-• MSFT: -5.1% AH on weak guidance
-• GOOGL: +2.2% AH on cloud strength
-• TSLA: +3.8% AH on delivery beat
-• META: +9.0% AH on strong ad revenue
-• AMD: +1.1% AH on market reaction
-• CRM: -1.3% AH on weak guidance
+• TSLA: +2.8% AH on delivery beat
 
 7. One-Sentence Takeaway
 Choppy, directionless session with no clear winners.
