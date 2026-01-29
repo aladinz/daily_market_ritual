@@ -683,7 +683,15 @@ class MarketRitual:
         
         # Event awareness
         if scheduled_event:
-            intention['catalyst'] = f"**Key Event**: {scheduled_event} at 8:30 AM ET - expect volatility"
+            # Determine correct time for the event
+            if 'Fed Decision' in scheduled_event:
+                event_time = "2:00 PM ET (Powell presser at 2:30 PM ET)"
+            elif 'CPI' in scheduled_event or 'PPI' in scheduled_event or 'NFP' in scheduled_event or 'Jobless Claims' in scheduled_event:
+                event_time = "8:30 AM ET"
+            else:
+                event_time = "8:30 AM ET"
+            
+            intention['catalyst'] = f"**Key Event**: {scheduled_event} at {event_time} - expect volatility"
         else:
             intention['catalyst'] = "**Key Event**: No major scheduled releases - focus on technicals"
         

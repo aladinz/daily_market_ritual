@@ -2,16 +2,16 @@
   "date": "January 29, 2026",
   "snapshot": {
     "ES": {
-      "change": "+0.22%",
-      "close": "7023.00"
+      "change": "+0.16%",
+      "close": "7018.25"
     },
     "NQ": {
-      "change": "+0.13%",
-      "close": "26191.50"
+      "change": "+0.07%",
+      "close": "26173.50"
     },
     "YM": {
-      "change": "+0.03%",
-      "close": "49182.00"
+      "change": "-0.04%",
+      "close": "49145.00"
     }
   },
   "key_levels": {
@@ -29,7 +29,7 @@
     "expected_low": "6917.14",
     "expected_high": "7038.92",
     "gap_direction": "Gap Up",
-    "gap_pct": "0.64%"
+    "gap_pct": "0.58%"
   },
   "breadth": {
     "tone": "Bearish",
@@ -56,7 +56,7 @@
     "overnight_tone": "**Flat/Mixed** - Futures showing little direction",
     "what_to_watch": "**Scheduled Events**: Fed Decision\n\n**Overnight Headlines**: US stock futures stall as Wall Street eyes Big Tech earnings\n\n**Sector Focus**: \n  Leaders (from yesterday): Technology (XLK), Energy (XLE)\n  Laggards (from yesterday): Real Estate (XLRE), Consumer Staples (XLP)",
     "movers": "Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.\nLook for: Earnings reactions, overnight news catalysts, technical breakouts.",
-    "intention": "**Today's Bias**: Neutral - waiting for clear setups\n\n**Key Event**: Fed Decision at 8:30 AM ET - expect volatility\n\n**Focus**: Watch Technology (XLK) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
+    "intention": "**Today's Bias**: Neutral - waiting for clear setups\n\n**Key Event**: Fed Decision at 2:00 PM ET (Powell presser at 2:30 PM ET) - expect volatility\n\n**Focus**: Watch Technology (XLK) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
     "action_plan": "**Entry Zones**: [Fill after market open with specific levels]\n\n**Watchlist**: [Add specific tickers showing strength/weakness]\n\n**Risk Management**: [Set max position size and stop levels]\n\n**What to Watch Tomorrow** (Friday, January 30):\n\n📊 **After-Hours Earnings Reactions**: No significant moves detected\n📅 **Economic Calendar**: No major releases scheduled\n⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open\n🔄 **Rotation Watch**: Monitor Technology for continued strength\n\n**Key Movers**:\n\n• No significant after-hours moves detected",
     "game_plan": "Patience mode - letting the tape reveal direction."
   },
