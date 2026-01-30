@@ -1,83 +1,83 @@
-Date: January 29, 2026
-Pre-Market Futures Snapshot (as of 08:18 AM CST):
-- S&P 500 Futures (ES): +0.16% (level: 7018.25)
-- Nasdaq Futures (NQ): +0.07% (level: 26173.50)
-- Dow Futures (YM): -0.04% (level: 49145.00)
+Date: January 30, 2026
+Pre-Market Futures Snapshot (as of 02:26 PM CST):
+- S&P 500 Futures (ES): -0.25% (level: 6975.50)
+- Nasdaq Futures (NQ): -0.54% (level: 25859.25)
+- Dow Futures (YM): -0.24% (level: 49053.00)
 
 **Key Levels for Swing Traders** (from yesterday's close):
-- SPX Support: 6960.23 | Resistance: 6999.05
-- SPX 20-day MA: 6920.81 | 50-day MA: 6847.63
+- SPX Support: 6889.81 | Resistance: 6960.42
+- SPX 20-day MA: 6928.33 | 50-day MA: 6857.34
 
 **Intraday Reference Levels** (SPX):
-  • Yesterday's Range: 6963.46 - 7002.28
-  • Yesterday's Close: 6978.03
-  • ATR (14-day): 60.89 points (0.9%)
-  • Expected Today's Range: 6917.14 - 7038.92
-  • Opening Gap: Gap Up 0.58%
+  • Yesterday's Range: 6893.48 - 6964.09
+  • Yesterday's Close: 6925.25
+  • ATR (14-day): 68.38 points (1.0%)
+  • Expected Today's Range: 6856.87 - 6993.63
+  • Opening Gap: Gap Up 0.73%
 
-**Market Breadth**: Bearish
-  • 60.4% of stocks above 50-day MA
-  • Advance/Decline: 19/34 (ratio: 0.56)
-  • Breadth Score: 76/100
+**Market Breadth**: Neutral
+  • 58.5% of stocks above 50-day MA
+  • Advance/Decline: 24/29 (ratio: 0.83)
+  • Breadth Score: 75/100
 
-**Sentiment - CNN Fear & Greed Index**: 56/100 (Greed)  [VIX-based proxy]
-  ███████████░░░░░░░░░
-  Signal: Caution on new longs - sentiment stretched
+**Sentiment - CNN Fear & Greed Index**: 50/100 (Neutral)  [VIX-based proxy]
+  ██████████░░░░░░░░░░
+  Signal: Balanced sentiment - no extreme
 
 **Market Context** (from yesterday's close):
-**5-Day Trend**: Mild uptrend (+1.5%) | **Week-to-Date**: +0.9% | **MA Structure**: Bullish (above 20 & 50-day MAs)
-**Volume**: Above Average participation (volume +3% vs. avg)
+**5-Day Trend**: Sideways (+0.1%) | **Week-to-Date**: -0.4% | **MA Structure**: Below 20-day MA
+**Volume**: Very Low participation (volume -53% vs. avg) - suspect move
 
 **Futures Context**:
-**Futures 5-Day Trend**: Mild uptrend (+1.1%)
+**Futures 5-Day Trend**: Sideways (+0.4%)
 
 1. Overnight Tone
-**Flat/Mixed** - Futures showing little direction
+**Cautiously Bearish** - Modest weakness in futures
 
 2. What to Watch Today
-**Scheduled Events**: Fed Decision
+**Scheduled Events**: No major scheduled releases
 
-**Overnight Headlines**: US stock futures stall as Wall Street eyes Big Tech earnings
+**Overnight Headlines**: Stocks slide after Trump reveals Fed pick
 
 **Sector Focus**: 
-  Leaders (from yesterday): Technology (XLK), Energy (XLE)
-  Laggards (from yesterday): Real Estate (XLRE), Consumer Staples (XLP)
+  Leaders (from yesterday): Consumer Staples (XLP), Healthcare (XLV)
+  Laggards (from yesterday): Materials (XLB), Technology (XLK)
 
 3. Pre-Market Movers
 Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.
 Look for: Earnings reactions, overnight news catalysts, technical breakouts.
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
-  1. GOOGL ($336.01) - RS Score: 100/100
-     • 20-Day: +7.2% (vs SPX: +6.1%)
-     • Distance from 52w High: -1.3%
-     • Volume: +3% vs 10-day avg
-  2. JNJ ($227.72) - RS Score: 100/100
-     • 20-Day: +9.7% (vs SPX: +8.7%)
-     • Distance from 52w High: -0.4%
-     • Volume: +37% vs 10-day avg
-  3. WMT ($116.57) - RS Score: 100/100
-     • 20-Day: +3.6% (vs SPX: +2.5%)
-     • Distance from 52w High: -4.2%
-     • Volume: +194% vs 10-day avg
+  1. GOOGL ($337.25) - RS Score: 100/100
+     • 20-Day: +7.7% (vs SPX: +6.6%)
+     • Distance from 52w High: -1.5%
+     • Volume: -5% vs 10-day avg
+  2. JNJ ($227.29) - RS Score: 100/100
+     • 20-Day: +9.8% (vs SPX: +8.7%)
+     • Distance from 52w High: -1.2%
+     • Volume: +11% vs 10-day avg
+  3. WMT ($119.13) - RS Score: 100/100
+     • 20-Day: +6.9% (vs SPX: +5.8%)
+     • Distance from 52w High: -2.0%
+     • Volume: +131% vs 10-day avg
 
 4. Swing-Trader Intention for Today
 **Today's Bias**: Neutral - waiting for clear setups
 
-**Key Event**: Fed Decision at 2:00 PM ET (Powell presser at 2:30 PM ET) - expect volatility
+**Key Event**: No major scheduled releases - focus on technicals
 
-**Focus**: Watch Technology (XLK) for momentum
+**Focus**: Watch Consumer Staples (XLP) for momentum
 
 **Risk**: Normal conditions - standard position sizing
 
 5. Swing Trade Checklist (based on yesterday's close)
-✓ Market above 20-day MA (bullish structure)
+✗ Market below 20-day MA (bearish structure)
 → VIX moderate (15-20) - normal conditions
-✓ Growth sectors leading (risk-on signal)
-→ Volume near average
-✓ 5-day uptrend intact
+✗ Defensive sectors leading (risk-off signal)
+✗ Volume below average (weak move)
+→ 5-day sideways action
 
-**Rating**: 8/10 (Strong Bullish)
+**Rating**: 2/10 (Bearish)
 
 6. Action Plan
 **Entry Zones**: [Fill after market open with specific levels]
@@ -86,12 +86,12 @@ Look for: Earnings reactions, overnight news catalysts, technical breakouts.
 
 **Risk Management**: [Set max position size and stop levels]
 
-**What to Watch Tomorrow** (Friday, January 30):
+**What to Watch Tomorrow** (Saturday, January 31):
 
 📊 **After-Hours Earnings Reactions**: No significant moves detected
 📅 **Economic Calendar**: No major releases scheduled
 ⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open
-🔄 **Rotation Watch**: Monitor Technology for continued strength
+🔄 **Rotation Watch**: Monitor Consumer Staples for continued strength
 
 **Key Movers**:
 

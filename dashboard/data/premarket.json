@@ -1,112 +1,112 @@
 {
-  "date": "January 29, 2026",
-  "last_updated": "January 29, 2026 at 05:14 PM CST",
+  "date": "January 30, 2026",
+  "last_updated": "January 30, 2026 at 02:26 PM CST",
   "report_type": "Pre-Market",
   "snapshot": {
     "ES": {
-      "change": "+0.16%",
-      "close": "7018.25"
+      "change": "-0.25%",
+      "close": "6975.50"
     },
     "NQ": {
-      "change": "+0.07%",
-      "close": "26173.50"
+      "change": "-0.54%",
+      "close": "25859.25"
     },
     "YM": {
-      "change": "-0.04%",
-      "close": "49145.00"
+      "change": "-0.24%",
+      "close": "49053.00"
     }
   },
   "key_levels": {
-    "support": "6960.23",
-    "resistance": "6999.05",
-    "ma_20": "6920.81",
-    "ma_50": "6847.63"
+    "support": "6889.81",
+    "resistance": "6960.42",
+    "ma_20": "6928.33",
+    "ma_50": "6857.34"
   },
   "intraday_levels": {
-    "yesterday_low": "6963.46",
-    "yesterday_high": "7002.28",
-    "yesterday_close": "6978.03",
-    "atr": "60.89",
-    "atr_pct": "0.9%",
-    "expected_low": "6917.14",
-    "expected_high": "7038.92",
+    "yesterday_low": "6893.48",
+    "yesterday_high": "6964.09",
+    "yesterday_close": "6925.25",
+    "atr": "68.38",
+    "atr_pct": "1.0%",
+    "expected_low": "6856.87",
+    "expected_high": "6993.63",
     "gap_direction": "Gap Up",
-    "gap_pct": "0.58%"
+    "gap_pct": "0.73%"
   },
   "breadth": {
-    "tone": "Bearish",
-    "pct_above_50ma": "60.4%",
-    "advancing": "19",
-    "declining": "34",
-    "ad_ratio": "0.56",
-    "breadth_score": "76"
+    "tone": "Neutral",
+    "pct_above_50ma": "58.5%",
+    "advancing": "24",
+    "declining": "29",
+    "ad_ratio": "0.83",
+    "breadth_score": "75"
   },
   "sentiment": {
-    "score": "56",
-    "interpretation": "Greed",
+    "score": "50",
+    "interpretation": "Neutral",
     "trend": "[VIX-based proxy]",
     "proxy": true,
-    "signal": "Caution on new longs - sentiment stretched"
+    "signal": "Balanced sentiment - no extreme"
   },
   "market_context": {
-    "five_day_trend": "Mild uptrend (+1.5%)",
-    "wtd": "+0.9%",
-    "ma_structure": "Bullish (above 20 & 50-day MAs)",
-    "volume": "Above Average participation (volume +3% vs. avg)"
+    "five_day_trend": "Sideways (+0.1%)",
+    "wtd": "-0.4%",
+    "ma_structure": "Below 20-day MA",
+    "volume": "Very Low participation (volume -53% vs. avg) - suspect move"
   },
   "sections": {
-    "overnight_tone": "**Flat/Mixed** - Futures showing little direction",
-    "what_to_watch": "**Scheduled Events**: Fed Decision\n\n**Overnight Headlines**: US stock futures stall as Wall Street eyes Big Tech earnings\n\n**Sector Focus**: \n  Leaders (from yesterday): Technology (XLK), Energy (XLE)\n  Laggards (from yesterday): Real Estate (XLRE), Consumer Staples (XLP)",
+    "overnight_tone": "**Cautiously Bearish** - Modest weakness in futures",
+    "what_to_watch": "**Scheduled Events**: No major scheduled releases\n\n**Overnight Headlines**: Stocks slide after Trump reveals Fed pick\n\n**Sector Focus**: \n  Leaders (from yesterday): Consumer Staples (XLP), Healthcare (XLV)\n  Laggards (from yesterday): Materials (XLB), Technology (XLK)",
     "movers": "Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.\nLook for: Earnings reactions, overnight news catalysts, technical breakouts.",
-    "intention": "**Today's Bias**: Neutral - waiting for clear setups\n\n**Key Event**: Fed Decision at 2:00 PM ET (Powell presser at 2:30 PM ET) - expect volatility\n\n**Focus**: Watch Technology (XLK) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
-    "action_plan": "**Entry Zones**: [Fill after market open with specific levels]\n\n**Watchlist**: [Add specific tickers showing strength/weakness]\n\n**Risk Management**: [Set max position size and stop levels]\n\n**What to Watch Tomorrow** (Friday, January 30):\n\n📊 **After-Hours Earnings Reactions**: No significant moves detected\n📅 **Economic Calendar**: No major releases scheduled\n⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open\n🔄 **Rotation Watch**: Monitor Technology for continued strength\n\n**Key Movers**:\n\n• No significant after-hours moves detected",
+    "intention": "**Today's Bias**: Neutral - waiting for clear setups\n\n**Key Event**: No major scheduled releases - focus on technicals\n\n**Focus**: Watch Consumer Staples (XLP) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
+    "action_plan": "**Entry Zones**: [Fill after market open with specific levels]\n\n**Watchlist**: [Add specific tickers showing strength/weakness]\n\n**Risk Management**: [Set max position size and stop levels]\n\n**What to Watch Tomorrow** (Saturday, January 31):\n\n📊 **After-Hours Earnings Reactions**: No significant moves detected\n📅 **Economic Calendar**: No major releases scheduled\n⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open\n🔄 **Rotation Watch**: Monitor Consumer Staples for continued strength\n\n**Key Movers**:\n\n• No significant after-hours moves detected",
     "game_plan": "Patience mode - letting the tape reveal direction."
   },
   "rs_leaders": [
     {
       "ticker": "GOOGL",
-      "price": "336.01",
+      "price": "337.25",
       "rs_score": "100",
-      "stock_return": "7.2",
-      "relative_perf": "6.1",
-      "pct_from_high": "-1.3",
-      "vol_increase": "3"
+      "stock_return": "7.7",
+      "relative_perf": "6.6",
+      "pct_from_high": "-1.5",
+      "vol_increase": "-5"
     },
     {
       "ticker": "JNJ",
-      "price": "227.72",
+      "price": "227.29",
       "rs_score": "100",
-      "stock_return": "9.7",
+      "stock_return": "9.8",
       "relative_perf": "8.7",
-      "pct_from_high": "-0.4",
-      "vol_increase": "37"
+      "pct_from_high": "-1.2",
+      "vol_increase": "11"
     },
     {
       "ticker": "WMT",
-      "price": "116.57",
+      "price": "119.13",
       "rs_score": "100",
-      "stock_return": "3.6",
-      "relative_perf": "2.5",
-      "pct_from_high": "-4.2",
-      "vol_increase": "194"
+      "stock_return": "6.9",
+      "relative_perf": "5.8",
+      "pct_from_high": "-2.0",
+      "vol_increase": "131"
     }
   ],
   "checklist": {
-    "rating": "8/10",
-    "interpretation": "Strong Bullish",
+    "rating": "2/10",
+    "interpretation": "Bearish",
     "items": [
-      "✓ Market above 20-day MA (bullish structure)",
+      "✗ Market below 20-day MA (bearish structure)",
       "→ VIX moderate (15-20) - normal conditions",
-      "✓ Growth sectors leading (risk-on signal)",
-      "→ Volume near average",
-      "✓ 5-day uptrend intact"
+      "✗ Defensive sectors leading (risk-off signal)",
+      "✗ Volume below average (weak move)",
+      "→ 5-day sideways action"
     ]
   },
   "watch_tomorrow": {
     "after_hours": "No significant moves detected",
     "economic_calendar": "No major releases scheduled",
     "gap_watch": "Mid-range close - expect potential range-bound open",
-    "rotation_watch": "Monitor Technology for continued strength"
+    "rotation_watch": "Monitor Consumer Staples for continued strength"
   },
   "key_movers": []
 }
