@@ -1,24 +1,44 @@
 @echo off
+setlocal
+
+REM ——————————————————————————————————————————————
+REM  Navigate to ritual engine
+REM ——————————————————————————————————————————————
 cd /d C:\Users\aladi\Daily_Market_Ritual
 
-REM Activate Python environment
+REM ——————————————————————————————————————————————
+REM  Activate environment
+REM ——————————————————————————————————————————————
 call .venv\Scripts\activate.bat
 
-REM Run your ritual script
+REM ——————————————————————————————————————————————
+REM  Generate ritual (premarket or postmarket)
+REM ——————————————————————————————————————————————
 python market_ritual.py --premarket
 
-REM Update heartbeat
+REM ——————————————————————————————————————————————
+REM  Update heartbeat for dashboard
+REM ——————————————————————————————————————————————
 echo { "last_updated": "%date% %time% CST", "mode": "premarket" } > heartbeat.json
 
-REM Git configuration for this run
+REM ——————————————————————————————————————————————
+REM  Git identity (safe, no secrets)
+REM ——————————————————————————————————————————————
 git config user.name "aladinz.github.io"
-git config user.email "aladinz@gmail.com"
+git config user.email "aladinzahran@msn.com"
 
-REM Add and commit changes
+REM ——————————————————————————————————————————————
+REM  Commit and push (Credential Manager handles auth)
+REM ——————————————————————————————————————————————
 git add .
 git commit -m "Automated pre-market update %date% %time%"
+git push origin main
 
-REM Push using PAT instead of password
-git push https://github.com/aladinz/daily_market_ritual.git main
-
+REM ——————————————————————————————————————————————
+REM  Ritual complete
+REM ——————————————————————————————————————————————
+echo.
+echo Ritual completed successfully. Review output above.
 pause
+
+endlocal
