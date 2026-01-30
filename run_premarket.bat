@@ -19,6 +19,6 @@ git add .
 git commit -m "Automated pre-market update %date% %time%"
 
 REM Push using PAT instead of password
-git push https://aladinz.github.io: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@github.com/aladinz/daily_market_ritual.git main
+git push https://github.com/aladinz/daily_market_ritual.git main
 
 pause

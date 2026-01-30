@@ -1,5 +1,5 @@
 Date: January 30, 2026
-Pre-Market Futures Snapshot (as of 03:10 PM CST):
+Pre-Market Futures Snapshot (as of 03:30 PM CST):
 - S&P 500 Futures (ES): -0.25% (level: 6975.50)
 - Nasdaq Futures (NQ): -0.54% (level: 25859.25)
 - Dow Futures (YM): -0.24% (level: 49053.00)
@@ -26,7 +26,7 @@ Pre-Market Futures Snapshot (as of 03:10 PM CST):
 
 **Market Context** (from yesterday's close):
 **5-Day Trend**: Sideways (+0.3%) | **Week-to-Date**: -0.2% | **MA Structure**: Bullish (above 20 & 50-day MAs)
-**Volume**: Very Low participation (volume -23% vs. avg) - suspect move
+**Volume**: Very Low participation (volume -22% vs. avg) - suspect move
 
 **Futures Context**:
 **Futures 5-Day Trend**: Sideways (+0.4%)
@@ -37,7 +37,7 @@ Pre-Market Futures Snapshot (as of 03:10 PM CST):
 2. What to Watch Today
 **Scheduled Events**: No major scheduled releases
 
-**Overnight Headlines**: Stocks slide after Trump reveals Fed pick
+**Overnight Headlines**: Gold sinks to $4,900, silver crashes 25% in reversal of massive rally
 
 **Sector Focus**: 
   Leaders (from yesterday): Consumer Staples (XLP), Energy (XLE)
@@ -48,9 +48,9 @@ Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.
 Look for: Earnings reactions, overnight news catalysts, technical breakouts.
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
-  1. GOOGL ($338.23) - RS Score: 100/100
-     • 20-Day: +8.1% (vs SPX: +6.7%)
-     • Distance from 52w High: -1.2%
+  1. GOOGL ($338.00) - RS Score: 100/100
+     • 20-Day: +8.0% (vs SPX: +6.6%)
+     • Distance from 52w High: -1.3%
      • Volume: -1% vs 10-day avg
   2. JNJ ($227.24) - RS Score: 100/100
      • 20-Day: +9.8% (vs SPX: +8.4%)
