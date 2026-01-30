@@ -1,23 +1,23 @@
 Date: January 30, 2026
-Pre-Market Futures Snapshot (as of 02:26 PM CST):
+Pre-Market Futures Snapshot (as of 03:10 PM CST):
 - S&P 500 Futures (ES): -0.25% (level: 6975.50)
 - Nasdaq Futures (NQ): -0.54% (level: 25859.25)
 - Dow Futures (YM): -0.24% (level: 49053.00)
 
 **Key Levels for Swing Traders** (from yesterday's close):
-- SPX Support: 6889.81 | Resistance: 6960.42
-- SPX 20-day MA: 6928.33 | 50-day MA: 6857.34
+- SPX Support: 6900.31 | Resistance: 6970.92
+- SPX 20-day MA: 6929.12 | 50-day MA: 6857.66
 
 **Intraday Reference Levels** (SPX):
   • Yesterday's Range: 6893.48 - 6964.09
-  • Yesterday's Close: 6925.25
+  • Yesterday's Close: 6939.03
   • ATR (14-day): 68.38 points (1.0%)
-  • Expected Today's Range: 6856.87 - 6993.63
-  • Opening Gap: Gap Up 0.73%
+  • Expected Today's Range: 6870.65 - 7007.41
+  • Opening Gap: Gap Up 0.53%
 
 **Market Breadth**: Neutral
   • 58.5% of stocks above 50-day MA
-  • Advance/Decline: 24/29 (ratio: 0.83)
+  • Advance/Decline: 25/28 (ratio: 0.89)
   • Breadth Score: 75/100
 
 **Sentiment - CNN Fear & Greed Index**: 50/100 (Neutral)  [VIX-based proxy]
@@ -25,8 +25,8 @@ Pre-Market Futures Snapshot (as of 02:26 PM CST):
   Signal: Balanced sentiment - no extreme
 
 **Market Context** (from yesterday's close):
-**5-Day Trend**: Sideways (+0.1%) | **Week-to-Date**: -0.4% | **MA Structure**: Below 20-day MA
-**Volume**: Very Low participation (volume -53% vs. avg) - suspect move
+**5-Day Trend**: Sideways (+0.3%) | **Week-to-Date**: -0.2% | **MA Structure**: Bullish (above 20 & 50-day MAs)
+**Volume**: Very Low participation (volume -23% vs. avg) - suspect move
 
 **Futures Context**:
 **Futures 5-Day Trend**: Sideways (+0.4%)
@@ -40,7 +40,7 @@ Pre-Market Futures Snapshot (as of 02:26 PM CST):
 **Overnight Headlines**: Stocks slide after Trump reveals Fed pick
 
 **Sector Focus**: 
-  Leaders (from yesterday): Consumer Staples (XLP), Healthcare (XLV)
+  Leaders (from yesterday): Consumer Staples (XLP), Energy (XLE)
   Laggards (from yesterday): Materials (XLB), Technology (XLK)
 
 3. Pre-Market Movers
@@ -48,18 +48,18 @@ Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.
 Look for: Earnings reactions, overnight news catalysts, technical breakouts.
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
-  1. GOOGL ($337.25) - RS Score: 100/100
-     • 20-Day: +7.7% (vs SPX: +6.6%)
-     • Distance from 52w High: -1.5%
-     • Volume: -5% vs 10-day avg
-  2. JNJ ($227.29) - RS Score: 100/100
-     • 20-Day: +9.8% (vs SPX: +8.7%)
+  1. GOOGL ($338.23) - RS Score: 100/100
+     • 20-Day: +8.1% (vs SPX: +6.7%)
      • Distance from 52w High: -1.2%
-     • Volume: +11% vs 10-day avg
-  3. WMT ($119.13) - RS Score: 100/100
-     • 20-Day: +6.9% (vs SPX: +5.8%)
+     • Volume: -1% vs 10-day avg
+  2. JNJ ($227.24) - RS Score: 100/100
+     • 20-Day: +9.8% (vs SPX: +8.4%)
+     • Distance from 52w High: -1.2%
+     • Volume: +13% vs 10-day avg
+  3. WMT ($119.14) - RS Score: 100/100
+     • 20-Day: +6.9% (vs SPX: +5.6%)
      • Distance from 52w High: -2.0%
-     • Volume: +131% vs 10-day avg
+     • Volume: +134% vs 10-day avg
 
 4. Swing-Trader Intention for Today
 **Today's Bias**: Neutral - waiting for clear setups
@@ -71,13 +71,13 @@ Look for: Earnings reactions, overnight news catalysts, technical breakouts.
 **Risk**: Normal conditions - standard position sizing
 
 5. Swing Trade Checklist (based on yesterday's close)
-✗ Market below 20-day MA (bearish structure)
+✓ Market above 20-day MA (bullish structure)
 → VIX moderate (15-20) - normal conditions
 ✗ Defensive sectors leading (risk-off signal)
 ✗ Volume below average (weak move)
 → 5-day sideways action
 
-**Rating**: 2/10 (Bearish)
+**Rating**: 4/10 (Neutral-Bearish)
 
 6. Action Plan
 **Entry Zones**: [Fill after market open with specific levels]
