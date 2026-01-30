@@ -1,43 +1,43 @@
 {
-  "date": "January 29, 2026",
-  "last_updated": "January 30, 2026 at 02:26 PM CST",
+  "date": "January 30, 2026",
+  "last_updated": "January 30, 2026 at 04:19 PM CST",
   "report_type": "Post-Market",
   "snapshot": {
     "SP500": {
-      "change": "-0.13%",
-      "close": "6969.01"
+      "change": "-0.43%",
+      "close": "6939.03"
     },
     "NASDAQ": {
-      "change": "-0.72%",
-      "close": "23685.12"
+      "change": "-0.94%",
+      "close": "23461.82"
     },
     "DOW": {
-      "change": "+0.11%",
-      "close": "49071.56"
+      "change": "-0.36%",
+      "close": "48892.47"
     }
   },
   "key_levels": {
-    "support": "6895.59",
-    "resistance": "7017.63",
-    "ma_20": "6924.45",
-    "ma_50": "6852.33"
+    "support": "6900.31",
+    "resistance": "6970.92",
+    "ma_20": "6929.12",
+    "ma_50": "6857.66"
   },
   "intraday_levels": {
-    "yesterday_low": "6870.80",
-    "yesterday_high": "6992.84",
-    "yesterday_close": "6969.01",
-    "atr": "67.33",
+    "yesterday_low": "6893.48",
+    "yesterday_high": "6964.09",
+    "yesterday_close": "6939.03",
+    "atr": "68.38",
     "atr_pct": "1.0%",
-    "expected_low": "6901.68",
-    "expected_high": "7036.34"
+    "expected_low": "6870.65",
+    "expected_high": "7007.41"
   },
   "breadth": {
     "tone": "Neutral",
-    "pct_above_50ma": "56.6%",
-    "advancing": "29",
-    "declining": "24",
-    "ad_ratio": "1.21",
-    "breadth_score": "74"
+    "pct_above_50ma": "58.5%",
+    "advancing": "25",
+    "declining": "28",
+    "ad_ratio": "0.89",
+    "breadth_score": "75"
   },
   "sentiment": {
     "score": "50",
@@ -47,75 +47,64 @@
     "signal": "Balanced sentiment - no extreme"
   },
   "market_context": {
-    "five_day_trend": "Mild uptrend (+0.8%)",
-    "wtd": "+0.8%",
+    "five_day_trend": "Sideways (+0.3%)",
+    "wtd": "-0.2%",
     "ma_structure": "Bullish (above 20 & 50-day MAs)",
     "volume": "Very Low participation (volume -21% vs. avg) - suspect move"
   },
   "sections": {
-    "tone": "**Mixed** - Choppy session with no clear direction",
-    "catalysts": "**Macro**: **Fed Decision Release**: Market reacted to today's data. Fed policy weighing on sentiment. Geopolitical developments creating uncertainty.\n\n**Earnings**: Meta (META) surged +10.4%, likely on earnings or news. Earnings reports driving stock-specific moves.\n\n**Headlines**: Market tone shift detected in headlines. Geopolitical headlines affecting sentiment. Headlines focused on Microsoft, Amazon.",
-    "sectors": "**Leading**: \n  • Communication Services (XLC): +2.60%\n  • Real Estate (XLRE): +1.27%\n  • Financials (XLF): +1.06%\n\n**Lagging**: \n  • Healthcare (XLV): -0.32%\n  • Consumer Discretionary (XLY): -0.48%\n  • Technology (XLK): -1.58%\n\n**VIX**: +3.24% (close: 16.88)\n\n**Rotation Notes**: **Balanced**: No clear rotation between defensive and cyclical sectors",
-    "reflection": "→ **Trend Neutral**: Consolidation mode - wait for breakouts\n\n**Watch**: Leaders = Communication Services (XLC)\n\n**Overnight Watch**: Check futures, Asia session, any headlines\n\n**Tomorrow**: Low conviction day - wait for clearer setup",
-    "tomorrow_setups": "**Neutral Outlook**: Market showing no clear directional bias. Wait for clearer price action. Let the market tip its hand before committing. Strategy: Patience over action - better setups will emerge.\n\n**What to Watch Tomorrow** (Friday, January 30):\n\n📊 **After-Hours Earnings Reactions**: AAPL +1.1%, TSLA +3.1%\n📅 **Economic Calendar**: No major releases scheduled\n📈 **Gap Watch**: Strong close near highs - watch for potential gap up and continuation\n🔄 **Rotation Watch**: Monitor Communication Services for continued strength\n\n**Key Movers**:\n\n• AAPL: +1.1% AH on strong iPhone sales\n• TSLA: +3.2% AH on delivery beat",
-    "takeaway": "Choppy, directionless session with no clear winners."
+    "tone": "**Mildly Risk-Off** - Modest selling pressure",
+    "catalysts": "**Macro**: Fed policy weighing on sentiment. Geopolitical developments creating uncertainty.\n\n**Earnings**: Tesla (TSLA) surged +3.3%, likely on earnings or news. Earnings reports driving stock-specific moves.\n\n**Headlines**: Market tone shift detected in headlines. Geopolitical headlines affecting sentiment.",
+    "sectors": "**Leading**: \n  • Consumer Staples (XLP): +1.68%\n  • Energy (XLE): +1.07%\n  • Healthcare (XLV): +0.60%\n\n**Lagging**: \n  • Industrials (XLI): -0.25%\n  • Materials (XLB): -1.46%\n  • Technology (XLK): -2.04%\n\n**VIX**: +0.77% (close: 17.01)\n\n**Rotation Notes**: **Risk-Off Rotation**: Defensives outperforming cyclicals - safety bid",
+    "reflection": "→ **Trend Neutral**: Consolidation mode - wait for breakouts\n\n**Watch**: Leaders = Consumer Staples (XLP)\n\n**Overnight Watch**: Check futures, Asia session, any headlines\n\n**Tomorrow**: Monitor for bounce or breakdown",
+    "tomorrow_setups": "**Range-Bound Setups**: Mixed sector performance with flat volatility. Expect sideways action. Favor support/resistance plays over breakouts. Strategy: Buy dips near support, sell rips near resistance, take quick profits.\n\n**What to Watch Tomorrow** (Saturday, January 31):\n\n📊 **After-Hours Earnings Reactions**: No significant moves detected\n📅 **Economic Calendar**: No major releases scheduled\n⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open\n🔄 **Rotation Watch**: Monitor Consumer Staples for continued strength\n\n**Key Movers**:\n\n• No significant after-hours moves detected",
+    "takeaway": "Modest selling pressure kept bulls on defense."
   },
   "rs_leaders": [
     {
       "ticker": "GOOGL",
-      "price": "338.25",
+      "price": "338.00",
       "rs_score": "100",
-      "stock_return": "7.8",
-      "relative_perf": "6.7",
-      "pct_from_high": "-1.2",
-      "vol_increase": "3"
+      "stock_return": "8.0",
+      "relative_perf": "6.6",
+      "pct_from_high": "-1.3",
+      "vol_increase": "-1"
     },
     {
       "ticker": "JNJ",
-      "price": "227.29",
+      "price": "227.25",
       "rs_score": "100",
       "stock_return": "9.8",
-      "relative_perf": "8.8",
+      "relative_perf": "8.4",
       "pct_from_high": "-1.2",
-      "vol_increase": "21"
+      "vol_increase": "13"
     },
     {
       "ticker": "WMT",
-      "price": "117.41",
+      "price": "119.14",
       "rs_score": "100",
-      "stock_return": "4.9",
-      "relative_perf": "3.9",
-      "pct_from_high": "-3.5",
-      "vol_increase": "162"
+      "stock_return": "6.9",
+      "relative_perf": "5.6",
+      "pct_from_high": "-2.0",
+      "vol_increase": "134"
     }
   ],
   "checklist": {
-    "rating": "5/10",
-    "interpretation": "Neutral",
+    "rating": "4/10",
+    "interpretation": "Neutral-Bearish",
     "items": [
       "✓ Market above 20-day MA (bullish structure)",
       "→ VIX moderate (15-20) - normal conditions",
-      "→ Mixed sector leadership",
+      "✗ Defensive sectors leading (risk-off signal)",
       "✗ Volume below average (weak move)",
       "→ 5-day sideways action"
     ]
   },
   "watch_tomorrow": {
-    "after_hours": "AAPL +1.1%, TSLA +3.1%",
+    "after_hours": "No significant moves detected",
     "economic_calendar": "No major releases scheduled",
-    "gap_watch": "Strong close near highs - watch for potential gap up and continuation",
-    "rotation_watch": "Monitor Communication Services for continued strength"
+    "gap_watch": "Mid-range close - expect potential range-bound open",
+    "rotation_watch": "Monitor Consumer Staples for continued strength"
   },
-  "key_movers": [
-    {
-      "ticker": "AAPL",
-      "change": "+1.1%",
-      "catalyst": "on strong iPhone sales"
-    },
-    {
-      "ticker": "TSLA",
-      "change": "+3.2%",
-      "catalyst": "on delivery beat"
-    }
-  ]
+  "key_movers": []
 }
