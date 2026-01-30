@@ -25,7 +25,7 @@ REM —————————————————————————�
 REM  Git identity (safe, no secrets)
 REM ——————————————————————————————————————————————
 git config user.name "aladinz.github.io"
-git config user.email "aladinzahran@msn.com"
+git config user.email "aladinz@gmail.com"
 
 REM ——————————————————————————————————————————————
 REM  Commit and push (Credential Manager handles auth)

@@ -1,103 +1,102 @@
-Date: January 29, 2026
+Date: January 30, 2026
 Market Close Snapshot:
-- S&P 500: -0.13% (close: 6969.01)
-- Nasdaq: -0.72% (close: 23685.12)
-- Dow Jones: +0.11% (close: 49071.56)
+- S&P 500: -0.43% (close: 6939.03)
+- Nasdaq: -0.94% (close: 23461.82)
+- Dow Jones: -0.36% (close: 48892.47)
 
 **Key Levels for Swing Traders**:
-- SPX Support: 6895.59 | Resistance: 7017.63
-- SPX 20-day MA: 6924.45 | 50-day MA: 6852.33
+- SPX Support: 6900.31 | Resistance: 6970.92
+- SPX 20-day MA: 6929.12 | 50-day MA: 6857.66
 
 **Intraday Reference Levels** (SPX):
-  • Yesterday's Range: 6870.80 - 6992.84
-  • Yesterday's Close: 6969.01
-  • ATR (14-day): 67.33 points (1.0%)
-  • Expected Today's Range: 6901.68 - 7036.34
+  • Yesterday's Range: 6893.48 - 6964.09
+  • Yesterday's Close: 6939.03
+  • ATR (14-day): 68.38 points (1.0%)
+  • Expected Today's Range: 6870.65 - 7007.41
 
 **Market Breadth**: Neutral
-  • 56.6% of stocks above 50-day MA
-  • Advance/Decline: 29/24 (ratio: 1.21)
-  • Breadth Score: 74/100
+  • 58.5% of stocks above 50-day MA
+  • Advance/Decline: 25/28 (ratio: 0.89)
+  • Breadth Score: 75/100
 
 **Sentiment - CNN Fear & Greed Index**: 50/100 (Neutral)  [VIX-based proxy]
   ██████████░░░░░░░░░░
   Signal: Balanced sentiment - no extreme
 
 **Market Context**:
-**5-Day Trend**: Mild uptrend (+0.8%) | **Week-to-Date**: +0.8% | **MA Structure**: Bullish (above 20 & 50-day MAs)
+**5-Day Trend**: Sideways (+0.3%) | **Week-to-Date**: -0.2% | **MA Structure**: Bullish (above 20 & 50-day MAs)
 **Volume**: Very Low participation (volume -21% vs. avg) - suspect move
 
 1. Tone of Today's Session
-**Mixed** - Choppy session with no clear direction
+**Mildly Risk-Off** - Modest selling pressure
 
 2. What Drove Today's Moves
-**Macro**: **Fed Decision Release**: Market reacted to today's data. Fed policy weighing on sentiment. Geopolitical developments creating uncertainty.
+**Macro**: Fed policy weighing on sentiment. Geopolitical developments creating uncertainty.
 
-**Earnings**: Meta (META) surged +10.4%, likely on earnings or news. Earnings reports driving stock-specific moves.
+**Earnings**: Tesla (TSLA) surged +3.3%, likely on earnings or news. Earnings reports driving stock-specific moves.
 
-**Headlines**: Market tone shift detected in headlines. Geopolitical headlines affecting sentiment. Headlines focused on Microsoft, Amazon.
+**Headlines**: Market tone shift detected in headlines. Geopolitical headlines affecting sentiment.
 
 3. Sector Leadership & Volatility
 **Leading**: 
-  • Communication Services (XLC): +2.60%
-  • Real Estate (XLRE): +1.27%
-  • Financials (XLF): +1.06%
+  • Consumer Staples (XLP): +1.68%
+  • Energy (XLE): +1.07%
+  • Healthcare (XLV): +0.60%
 
 **Lagging**: 
-  • Healthcare (XLV): -0.32%
-  • Consumer Discretionary (XLY): -0.48%
-  • Technology (XLK): -1.58%
+  • Industrials (XLI): -0.25%
+  • Materials (XLB): -1.46%
+  • Technology (XLK): -2.04%
 
-**VIX**: +3.24% (close: 16.88)
+**VIX**: +0.77% (close: 17.01)
 
-**Rotation Notes**: **Balanced**: No clear rotation between defensive and cyclical sectors
+**Rotation Notes**: **Risk-Off Rotation**: Defensives outperforming cyclicals - safety bid
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
-  1. GOOGL ($338.25) - RS Score: 100/100
-     • 20-Day: +7.8% (vs SPX: +6.7%)
+  1. GOOGL ($338.00) - RS Score: 100/100
+     • 20-Day: +8.0% (vs SPX: +6.6%)
+     • Distance from 52w High: -1.3%
+     • Volume: -1% vs 10-day avg
+  2. JNJ ($227.25) - RS Score: 100/100
+     • 20-Day: +9.8% (vs SPX: +8.4%)
      • Distance from 52w High: -1.2%
-     • Volume: +3% vs 10-day avg
-  2. JNJ ($227.29) - RS Score: 100/100
-     • 20-Day: +9.8% (vs SPX: +8.8%)
-     • Distance from 52w High: -1.2%
-     • Volume: +21% vs 10-day avg
-  3. WMT ($117.41) - RS Score: 100/100
-     • 20-Day: +4.9% (vs SPX: +3.9%)
-     • Distance from 52w High: -3.5%
-     • Volume: +162% vs 10-day avg
+     • Volume: +13% vs 10-day avg
+  3. WMT ($119.14) - RS Score: 100/100
+     • 20-Day: +6.9% (vs SPX: +5.6%)
+     • Distance from 52w High: -2.0%
+     • Volume: +134% vs 10-day avg
 
 4. Swing-Trader Reflection
 → **Trend Neutral**: Consolidation mode - wait for breakouts
 
-**Watch**: Leaders = Communication Services (XLC)
+**Watch**: Leaders = Consumer Staples (XLP)
 
 **Overnight Watch**: Check futures, Asia session, any headlines
 
-**Tomorrow**: Low conviction day - wait for clearer setup
+**Tomorrow**: Monitor for bounce or breakdown
 
 5. Swing Trade Checklist
 ✓ Market above 20-day MA (bullish structure)
 → VIX moderate (15-20) - normal conditions
-→ Mixed sector leadership
+✗ Defensive sectors leading (risk-off signal)
 ✗ Volume below average (weak move)
 → 5-day sideways action
 
-**Rating**: 5/10 (Neutral)
+**Rating**: 4/10 (Neutral-Bearish)
 
 6. Tomorrow's Setups
-**Neutral Outlook**: Market showing no clear directional bias. Wait for clearer price action. Let the market tip its hand before committing. Strategy: Patience over action - better setups will emerge.
+**Range-Bound Setups**: Mixed sector performance with flat volatility. Expect sideways action. Favor support/resistance plays over breakouts. Strategy: Buy dips near support, sell rips near resistance, take quick profits.
 
-**What to Watch Tomorrow** (Friday, January 30):
+**What to Watch Tomorrow** (Saturday, January 31):
 
-📊 **After-Hours Earnings Reactions**: AAPL +1.1%, TSLA +3.1%
+📊 **After-Hours Earnings Reactions**: No significant moves detected
 📅 **Economic Calendar**: No major releases scheduled
-📈 **Gap Watch**: Strong close near highs - watch for potential gap up and continuation
-🔄 **Rotation Watch**: Monitor Communication Services for continued strength
+⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open
+🔄 **Rotation Watch**: Monitor Consumer Staples for continued strength
 
 **Key Movers**:
 
-• AAPL: +1.1% AH on strong iPhone sales
-• TSLA: +3.2% AH on delivery beat
+• No significant after-hours moves detected
 
 7. One-Sentence Takeaway
-Choppy, directionless session with no clear winners.
+Modest selling pressure kept bulls on defense.
