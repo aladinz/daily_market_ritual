@@ -200,7 +200,10 @@ For pre-market, schedule at 7:00 AM ET.
 Daily_Market_Ritual/
 ├── market_ritual.py           # Main Python ritual engine
 ├── convert_to_json.py         # JSON converter for dashboard
-├── update_dashboard.ps1       # Automation script
+├── update_dashboard.ps1       # Automation script (all-in-one)
+├── cleanup_old_reports.ps1    # Report cleanup utility
+├── run_premarket.bat          # Pre-market batch file
+├── run_postmarket.bat         # Post-market batch file
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
 ├── DEPLOYMENT.md              # Deployment guide
@@ -217,9 +220,11 @@ Daily_Market_Ritual/
 │
 └── rituals/                   # Generated reports
     ├── premarket/
-    │   └── latest.txt
+    │   ├── latest.txt        # Current pre-market report
+    │   └── summary_*.txt     # Historical reports
     └── postmarket/
-        └── latest.txt
+        ├── latest.txt        # Current post-market report
+        └── summary_*.txt     # Historical reports
 ```
 
 ## 🎯 Data Sources
@@ -266,6 +271,46 @@ Automatically tracks major events:
 Monitors 10 major tickers:
 - AAPL, MSFT, GOOGL, AMZN, NVDA
 - TSLA, META, AMD, NFLX, CRM
+
+## 🗂️ Report Management
+
+As reports accumulate over time, use the cleanup utility to manage storage:
+
+### Cleanup Old Reports
+
+**Manual Cleanup**
+```powershell
+# Keep last 30 days, delete older reports
+.\cleanup_old_reports.ps1
+
+# Keep last 60 days
+.\cleanup_old_reports.ps1 -DaysToKeep 60
+
+# Keep last 30 days, archive (not delete) older ones
+.\cleanup_old_reports.ps1 -Archive
+```
+
+**Automated Monthly Cleanup**
+
+Add to Windows Task Scheduler for automatic maintenance:
+
+1. **Task Name**: Monthly Report Cleanup
+2. **Trigger**: First day of month at 6:00 AM
+3. **Program**: `powershell.exe`
+4. **Arguments**: `-ExecutionPolicy Bypass -File "C:\Users\aladi\Daily_Market_Ritual\cleanup_old_reports.ps1" -DaysToKeep 30`
+5. **Run whether user is logged on or not**: Enabled
+
+**What Gets Cleaned**
+- ✅ Keeps `latest.txt` files (always preserved)
+- ✅ Keeps reports from last N days
+- ✅ Archives or deletes older timestamped reports (`summary_*.txt`)
+- ✅ Works on both `premarket` and `postmarket` folders
+- ✅ Safe - only targets old summary files
+
+**Recommended Settings**
+- **Active Trading**: Keep 30 days (1 month of history)
+- **Long-term Analysis**: Keep 60-90 days (3 months)
+- **Archive Mode**: Use `-Archive` flag for first run to be safe
 
 ## 🤝 Contributing
 
