@@ -1,83 +1,83 @@
-Date: February 03, 2026
-Pre-Market Futures Snapshot (as of 05:53 AM CST):
-- S&P 500 Futures (ES): +0.11% (level: 7010.25)
-- Nasdaq Futures (NQ): +0.40% (level: 25953.00)
-- Dow Futures (YM): -0.08% (level: 49481.00)
+Date: February 05, 2026
+Pre-Market Futures Snapshot (as of 07:25 AM CST):
+- S&P 500 Futures (ES): -0.52% (level: 6870.50)
+- Nasdaq Futures (NQ): -0.77% (level: 24806.75)
+- Dow Futures (YM): -0.30% (level: 49440.00)
 
 **Key Levels for Swing Traders** (from yesterday's close):
-- SPX Support: 6929.88 | Resistance: 7007.46
-- SPX 20-day MA: 6935.02 | 50-day MA: 6864.84
+- SPX Support: 6835.65 | Resistance: 6932.94
+- SPX 20-day MA: 6932.70 | 50-day MA: 6877.23
 
 **Intraday Reference Levels** (SPX):
-  • Yesterday's Range: 6914.34 - 6991.92
-  • Yesterday's Close: 6976.44
-  • ATR (14-day): 70.19 points (1.0%)
-  • Expected Today's Range: 6906.25 - 7046.63
-  • Opening Gap: Gap Up 0.48%
+  • Yesterday's Range: 6838.80 - 6936.09
+  • Yesterday's Close: 6882.72
+  • ATR (14-day): 77.57 points (1.1%)
+  • Expected Today's Range: 6805.15 - 6960.29
+  • Opening Gap: Gap Down 0.18%
 
 **Market Breadth**: Bullish
-  • 66.0% of stocks above 50-day MA
-  • Advance/Decline: 38/15 (ratio: 2.53)
-  • Breadth Score: 80/100
+  • 64.2% of stocks above 50-day MA
+  • Advance/Decline: 35/18 (ratio: 1.94)
+  • Breadth Score: 78/100
 
-**Sentiment - CNN Fear & Greed Index**: 50/100 (Neutral)  [VIX-based proxy]
-  ██████████░░░░░░░░░░
-  Signal: Balanced sentiment - no extreme
+**Sentiment - CNN Fear & Greed Index**: 32/100 (Fear)  [VIX-based proxy]
+  ██████░░░░░░░░░░░░░░
+  Signal: Potential reversal setup - watch for bottoming
 
 **Market Context** (from yesterday's close):
-**5-Day Trend**: Sideways (+0.4%) | **Week-to-Date**: -0.0% | **MA Structure**: Bullish (above 20 & 50-day MAs)
-**Volume**: Above Average participation (volume +1% vs. avg)
+**5-Day Trend**: Mild downtrend (-1.4%) | **Week-to-Date**: -1.2% | **MA Structure**: Below 20-day MA
+**Volume**: High conviction selling (volume +25% vs. avg)
 
 **Futures Context**:
-**Futures 5-Day Trend**: Sideways (+0.0%)
+**Futures 5-Day Trend**: Mild downtrend (-1.7%)
 
 1. Overnight Tone
-**Flat/Mixed** - Futures showing little direction
+**Bearish Pre-Market** - Futures pointing to a negative open
 
 2. What to Watch Today
 **Scheduled Events**: No major scheduled releases
 
-**Overnight Headlines**: Stock futures rise as Wall Street eyes return to rally
+**Overnight Headlines**: S&amp;P 500, Nasdaq gear up to build on tech sell-off
 
 **Sector Focus**: 
-  Leaders (from yesterday): Industrials (XLI), Consumer Staples (XLP)
-  Laggards (from yesterday): Utilities (XLU), Energy (XLE)
+  Leaders (from yesterday): Materials (XLB), Energy (XLE)
+  Laggards (from yesterday): Communication Services (XLC), Technology (XLK)
 
 3. Pre-Market Movers
 Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.
 Look for: Earnings reactions, overnight news catalysts, technical breakouts.
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
-  1. GOOGL ($343.69) - RS Score: 100/100
-     • 20-Day: +9.1% (vs SPX: +7.3%)
-     • Distance from 52w High: -0.3%
-     • Volume: -5% vs 10-day avg
-  2. JNJ ($230.75) - RS Score: 100/100
-     • 20-Day: +11.3% (vs SPX: +9.6%)
-     • Distance from 52w High: -0.2%
-     • Volume: +11% vs 10-day avg
-  3. WMT ($124.06) - RS Score: 100/100
-     • 20-Day: +10.0% (vs SPX: +8.3%)
-     • Distance from 52w High: -0.1%
-     • Volume: -62% vs 10-day avg
+  1. AAPL ($276.49) - RS Score: 100/100
+     • 20-Day: +5.4% (vs SPX: +6.3%)
+     • Distance from 52w High: -4.2%
+     • Volume: +19% vs 10-day avg
+  2. GOOGL ($333.04) - RS Score: 100/100
+     • 20-Day: +5.9% (vs SPX: +6.8%)
+     • Distance from 52w High: -4.6%
+     • Volume: +3% vs 10-day avg
+  3. JNJ ($234.47) - RS Score: 100/100
+     • 20-Day: +14.5% (vs SPX: +15.4%)
+     • Distance from 52w High: -0.6%
+     • Volume: -11% vs 10-day avg
 
 4. Swing-Trader Intention for Today
-**Today's Bias**: Neutral - waiting for clear setups
+**Today's Bias**: Defensive - watching support levels and hedges
 
 **Key Event**: No major scheduled releases - focus on technicals
 
-**Focus**: Watch Industrials (XLI) for momentum
+**Focus**: Watch Materials (XLB) for momentum
 
 **Risk**: Normal conditions - standard position sizing
 
 5. Swing Trade Checklist (based on yesterday's close)
-✓ Market above 20-day MA (bullish structure)
-→ VIX moderate (15-20) - normal conditions
+✗ Market below 20-day MA (bearish structure)
+✗ VIX elevated (>20) - high fear/volatility
 → Mixed sector leadership
-→ Volume near average
-→ 5-day sideways action
+✓ Volume above average (conviction move)
+✗ 5-day downtrend
 
-**Rating**: 6/10 (Neutral-Bullish)
+**Rating**: 3/10 (Neutral-Bearish)
 
 6. Action Plan
 **Entry Zones**: [Fill after market open with specific levels]
@@ -86,16 +86,16 @@ Look for: Earnings reactions, overnight news catalysts, technical breakouts.
 
 **Risk Management**: [Set max position size and stop levels]
 
-**What to Watch Tomorrow** (Wednesday, February 04):
+**What to Watch Tomorrow** (Friday, February 06):
 
 📊 **After-Hours Earnings Reactions**: No significant moves detected
 📅 **Economic Calendar**: No major releases scheduled
-📈 **Gap Watch**: Strong close near highs - watch for potential gap up and continuation
-🔄 **Rotation Watch**: Monitor Industrials for continued strength
+⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open
+🔄 **Rotation Watch**: Monitor Materials for continued strength
 
 **Key Movers**:
 
 • No significant after-hours moves detected
 
 7. One-Line Game Plan
-Patience mode - letting the tape reveal direction.
+Defensive mode - waiting for bounce or shorting weakness.
