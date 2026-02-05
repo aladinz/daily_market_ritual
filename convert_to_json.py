@@ -288,7 +288,7 @@ def extract_sections(text, report_type):
         section_patterns = [
             (r'1\. Overnight Tone\n(.+?)(?=\n2\.|\nZ)', 'overnight_tone'),
             (r'2\. What to Watch Today\n(.+?)(?=\n3\.|\nZ)', 'what_to_watch'),
-            (r'3\. Pre-Market Movers\n(.+?)(?=\n3a\.|\nZ)', 'movers'),
+            (r'3\. Pre-Market Movers.*?\n(.+?)(?=\n3a\.|\nZ)', 'movers'),
             (r'4\. Swing-Trader Intention for Today\n(.+?)(?=\n5\.|\nZ)', 'intention'),
             (r'6\. Action Plan\n(.+?)(?=\n7\.|\nZ)', 'action_plan'),
             (r'7\. One-Line Game Plan\n(.+?)$', 'game_plan')

@@ -424,6 +424,7 @@ function renderSection(title, content) {
         'Overnight Tone': '🌙',
         'What to Watch Today': '👀',
         'Pre-Market Movers': '🚀',
+        'Movers': '🚀',
         'Swing-Trader Intention': '🎯',
         'Action Plan': '📋',
         'One-Line Game Plan': '⚡',
