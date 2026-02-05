@@ -1,112 +1,112 @@
 {
-  "date": "February 03, 2026",
-  "last_updated": "February 03, 2026 at 05:59 AM CST",
+  "date": "February 05, 2026",
+  "last_updated": "February 05, 2026 at 07:33 AM CST",
   "report_type": "Pre-Market",
   "snapshot": {
     "ES": {
-      "change": "+0.10%",
-      "close": "7009.75"
+      "change": "-0.55%",
+      "close": "6868.25"
     },
     "NQ": {
-      "change": "+0.39%",
-      "close": "25951.75"
+      "change": "-0.78%",
+      "close": "24803.25"
     },
     "YM": {
-      "change": "-0.09%",
-      "close": "49476.00"
+      "change": "-0.33%",
+      "close": "49424.00"
     }
   },
   "key_levels": {
-    "support": "6929.88",
-    "resistance": "7007.46",
-    "ma_20": "6935.02",
-    "ma_50": "6864.84"
+    "support": "6835.65",
+    "resistance": "6932.94",
+    "ma_20": "6932.70",
+    "ma_50": "6877.23"
   },
   "intraday_levels": {
-    "yesterday_low": "6914.34",
-    "yesterday_high": "6991.92",
-    "yesterday_close": "6976.44",
-    "atr": "70.19",
-    "atr_pct": "1.0%",
-    "expected_low": "6906.25",
-    "expected_high": "7046.63",
-    "gap_direction": "Gap Up",
-    "gap_pct": "0.48%"
+    "yesterday_low": "6838.80",
+    "yesterday_high": "6936.09",
+    "yesterday_close": "6882.72",
+    "atr": "77.57",
+    "atr_pct": "1.1%",
+    "expected_low": "6805.15",
+    "expected_high": "6960.29",
+    "gap_direction": "Gap Down",
+    "gap_pct": "0.21%"
   },
   "breadth": {
     "tone": "Bullish",
-    "pct_above_50ma": "66.0%",
-    "advancing": "38",
-    "declining": "15",
-    "ad_ratio": "2.53",
-    "breadth_score": "80"
+    "pct_above_50ma": "64.2%",
+    "advancing": "35",
+    "declining": "18",
+    "ad_ratio": "1.94",
+    "breadth_score": "78"
   },
   "sentiment": {
-    "score": "50",
-    "interpretation": "Neutral",
+    "score": "32",
+    "interpretation": "Fear",
     "trend": "[VIX-based proxy]",
     "proxy": true,
-    "signal": "Balanced sentiment - no extreme"
+    "signal": "Potential reversal setup - watch for bottoming"
   },
   "market_context": {
-    "five_day_trend": "Sideways (+0.4%)",
-    "wtd": "-0.0%",
-    "ma_structure": "Bullish (above 20 & 50-day MAs)",
-    "volume": "Above Average participation (volume +1% vs. avg)"
+    "five_day_trend": "Mild downtrend (-1.4%)",
+    "wtd": "-1.2%",
+    "ma_structure": "Below 20-day MA",
+    "volume": "High conviction selling (volume +25% vs. avg)"
   },
   "sections": {
-    "overnight_tone": "**Flat/Mixed** - Futures showing little direction",
-    "what_to_watch": "**Scheduled Events**: No major scheduled releases\n\n**Overnight Headlines**: Stock futures rise as Wall Street eyes return to rally\n\n**Sector Focus**: \n  Leaders (from yesterday): Industrials (XLI), Consumer Staples (XLP)\n  Laggards (from yesterday): Utilities (XLU), Energy (XLE)",
+    "overnight_tone": "**Bearish Pre-Market** - Futures pointing to a negative open",
+    "what_to_watch": "**Scheduled Events**: No major scheduled releases\n\n**Overnight Headlines**: S&amp;P 500, Nasdaq gear up to build on tech sell-off\n\n**Sector Focus**: \n  Leaders (from yesterday): Materials (XLB), Energy (XLE)\n  Laggards (from yesterday): Communication Services (XLC), Technology (XLK)",
     "movers": "Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.\nLook for: Earnings reactions, overnight news catalysts, technical breakouts.",
-    "intention": "**Today's Bias**: Neutral - waiting for clear setups\n\n**Key Event**: No major scheduled releases - focus on technicals\n\n**Focus**: Watch Industrials (XLI) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
-    "action_plan": "**Entry Zones**: [Fill after market open with specific levels]\n\n**Watchlist**: [Add specific tickers showing strength/weakness]\n\n**Risk Management**: [Set max position size and stop levels]\n\n**What to Watch Tomorrow** (Wednesday, February 04):\n\n📊 **After-Hours Earnings Reactions**: No significant moves detected\n📅 **Economic Calendar**: No major releases scheduled\n📈 **Gap Watch**: Strong close near highs - watch for potential gap up and continuation\n🔄 **Rotation Watch**: Monitor Industrials for continued strength\n\n**Key Movers**:\n\n• No significant after-hours moves detected",
-    "game_plan": "Patience mode - letting the tape reveal direction."
+    "intention": "**Today's Bias**: Defensive - watching support levels and hedges\n\n**Key Event**: No major scheduled releases - focus on technicals\n\n**Focus**: Watch Materials (XLB) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
+    "action_plan": "**Entry Zones**: [Fill after market open with specific levels]\n\n**Watchlist**: [Add specific tickers showing strength/weakness]\n\n**Risk Management**: [Set max position size and stop levels]\n\n**What to Watch Tomorrow** (Friday, February 06):\n\n📊 **After-Hours Earnings Reactions**: No significant moves detected\n📅 **Economic Calendar**: No major releases scheduled\n⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open\n🔄 **Rotation Watch**: Monitor Materials for continued strength\n\n**Key Movers**:\n\n• No significant after-hours moves detected",
+    "game_plan": "Defensive mode - waiting for bounce or shorting weakness."
   },
   "rs_leaders": [
     {
-      "ticker": "GOOGL",
-      "price": "343.69",
+      "ticker": "AAPL",
+      "price": "276.49",
       "rs_score": "100",
-      "stock_return": "9.1",
-      "relative_perf": "7.3",
-      "pct_from_high": "-0.3",
-      "vol_increase": "-5"
+      "stock_return": "5.4",
+      "relative_perf": "6.3",
+      "pct_from_high": "-4.2",
+      "vol_increase": "19"
+    },
+    {
+      "ticker": "GOOGL",
+      "price": "333.04",
+      "rs_score": "100",
+      "stock_return": "5.9",
+      "relative_perf": "6.8",
+      "pct_from_high": "-4.6",
+      "vol_increase": "3"
     },
     {
       "ticker": "JNJ",
-      "price": "230.75",
+      "price": "234.47",
       "rs_score": "100",
-      "stock_return": "11.3",
-      "relative_perf": "9.6",
-      "pct_from_high": "-0.2",
-      "vol_increase": "11"
-    },
-    {
-      "ticker": "WMT",
-      "price": "124.06",
-      "rs_score": "100",
-      "stock_return": "10.0",
-      "relative_perf": "8.3",
-      "pct_from_high": "-0.1",
-      "vol_increase": "-62"
+      "stock_return": "14.5",
+      "relative_perf": "15.4",
+      "pct_from_high": "-0.6",
+      "vol_increase": "-11"
     }
   ],
   "checklist": {
-    "rating": "6/10",
-    "interpretation": "Neutral-Bullish",
+    "rating": "3/10",
+    "interpretation": "Neutral-Bearish",
     "items": [
-      "✓ Market above 20-day MA (bullish structure)",
-      "→ VIX moderate (15-20) - normal conditions",
+      "✗ Market below 20-day MA (bearish structure)",
+      "✗ VIX elevated (>20) - high fear/volatility",
       "→ Mixed sector leadership",
-      "→ Volume near average",
-      "→ 5-day sideways action"
+      "✓ Volume above average (conviction move)",
+      "✗ 5-day downtrend"
     ]
   },
   "watch_tomorrow": {
     "after_hours": "No significant moves detected",
     "economic_calendar": "No major releases scheduled",
-    "gap_watch": "Strong close near highs - watch for potential gap up and continuation",
-    "rotation_watch": "Monitor Industrials for continued strength"
+    "gap_watch": "Mid-range close - expect potential range-bound open",
+    "rotation_watch": "Monitor Materials for continued strength"
   },
   "key_movers": []
 }
