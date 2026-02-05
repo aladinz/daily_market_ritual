@@ -1,35 +1,35 @@
 Date: February 05, 2026
-Pre-Market Futures Snapshot (as of 08:20 AM CST):
-- S&P 500 Futures (ES): -0.66% (level: 6860.75)
-- Nasdaq Futures (NQ): -0.81% (level: 24797.75)
-- Dow Futures (YM): -0.33% (level: 49424.00)
+Pre-Market Futures Snapshot (as of 08:46 AM CST):
+- S&P 500 Futures (ES): -0.78% (level: 6852.25)
+- Nasdaq Futures (NQ): -0.83% (level: 24792.25)
+- Dow Futures (YM): -0.58% (level: 49300.00)
 
 **Key Levels for Swing Traders** (from yesterday's close):
-- SPX Support: 6835.65 | Resistance: 6932.94
-- SPX 20-day MA: 6932.70 | 50-day MA: 6877.23
+- SPX Support: 6820.07 | Resistance: 6868.60
+- SPX 20-day MA: 6929.20 | 50-day MA: 6882.19
 
 **Intraday Reference Levels** (SPX):
-  • Yesterday's Range: 6838.80 - 6936.09
-  • Yesterday's Close: 6882.72
-  • ATR (14-day): 77.57 points (1.1%)
-  • Expected Today's Range: 6805.15 - 6960.29
-  • Opening Gap: Gap Down 0.32%
+  • Yesterday's Range: 6806.92 - 6855.45
+  • Yesterday's Close: 6851.47
+  • ATR (14-day): 79.22 points (1.2%)
+  • Expected Today's Range: 6772.25 - 6930.69
+  • Opening Gap: Gap Up 0.01%
 
-**Market Breadth**: Bullish
-  • 64.2% of stocks above 50-day MA
-  • Advance/Decline: 35/18 (ratio: 1.94)
-  • Breadth Score: 78/100
+**Market Breadth**: Neutral
+  • 58.5% of stocks above 50-day MA
+  • Advance/Decline: 24/29 (ratio: 0.83)
+  • Breadth Score: 75/100
 
 **Sentiment - CNN Fear & Greed Index**: 32/100 (Fear)  [VIX-based proxy]
   ██████░░░░░░░░░░░░░░
   Signal: Potential reversal setup - watch for bottoming
 
 **Market Context** (from yesterday's close):
-**5-Day Trend**: Mild downtrend (-1.4%) | **Week-to-Date**: -1.2% | **MA Structure**: Below 20-day MA
-**Volume**: High conviction selling (volume +25% vs. avg)
+**5-Day Trend**: Mild downtrend (-1.7%) | **Week-to-Date**: -1.3% | **MA Structure**: Below 20-day MA
+**Volume**: Very Low participation (volume -93% vs. avg) - suspect move
 
 **Futures Context**:
-**Futures 5-Day Trend**: Mild downtrend (-1.9%)
+**Futures 5-Day Trend**: Strong downtrend (-2.0%) - bearish momentum
 
 1. Overnight Tone
 **Bearish Pre-Market** - Futures pointing to a negative open
@@ -38,80 +38,76 @@ Pre-Market Futures Snapshot (as of 08:20 AM CST):
 **Scheduled Events**: No major scheduled releases
 
 **Overnight Headlines**:
-  1. S&amp;P 500, Nasdaq gear up to build on tech sell-off
+  1. S&amp;P 500, Nasdaq sink, adding to tech sell-off
   2. Bitcoin sinks below $70K after Bessent rules out crypto bailout
   3. Bezos's 'darkest day' in billionaire-backed media
   4. US weekly jobless claims increase more than expected
   5. Silver tumbles, hit with fresh sell-off in China
 
 **Sector Focus**: 
-  Leaders (from yesterday): Materials (XLB), Energy (XLE)
-  Laggards (from yesterday): Communication Services (XLC), Technology (XLK)
+  Leaders (from yesterday): Utilities (XLU), Consumer Staples (XLP)
+  Laggards (from yesterday): Energy (XLE), Consumer Discretionary (XLY)
 
 3. Pre-Market Movers & Gap Setups
-**Gap Up Setups** (stocks opening >2% higher):
-  • ZM: +4.1% ($92.40 from $88.73) - Watch for continuation or fade
-  • NIO: +3.7% ($4.72 from $4.55) - Watch for continuation or fade
-  • AAPL: +2.7% ($276.73 from $269.48) - Watch for continuation or fade
-  • ADBE: +2.4% ($278.40 from $271.93) - Watch for continuation or fade
-  • XOM: +2.2% ($146.85 from $143.73) - Watch for continuation or fade
-
-**Gap Down Setups** (stocks opening >2% lower):
-  • AMD: -17.4% ($200.00 from $242.11) - Watch for bounce or breakdown
-  • PLTR: -14.5% ($135.06 from $157.88) - Watch for bounce or breakdown
-  • COIN: -11.2% ($159.50 from $179.66) - Watch for bounce or breakdown
-  • QCOM: -9.8% ($132.71 from $147.18) - Watch for bounce or breakdown
-  • GOOGL: -8.1% ($312.16 from $339.71) - Watch for bounce or breakdown
+No significant gaps detected in pre-market (>2%). Market opening near fair value.
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
-  1. AAPL ($276.49) - RS Score: 100/100
-     • 20-Day: +5.4% (vs SPX: +6.3%)
-     • Distance from 52w High: -4.2%
-     • Volume: +19% vs 10-day avg
-  2. GOOGL ($333.04) - RS Score: 100/100
-     • 20-Day: +5.9% (vs SPX: +6.8%)
-     • Distance from 52w High: -4.6%
+  1. AAPL ($273.50) - RS Score: 100/100
+     • 20-Day: +5.1% (vs SPX: +6.1%)
+     • Distance from 52w High: -5.2%
+     • Volume: +15% vs 10-day avg
+  2. GOOGL ($323.04) - RS Score: 100/100
+     • 20-Day: +0.3% (vs SPX: +1.3%)
+     • Distance from 52w High: -7.4%
      • Volume: +3% vs 10-day avg
-  3. META ($668.99) - RS Score: 100/100
-     • 20-Day: +1.3% (vs SPX: +2.2%)
-     • Distance from 52w High: -15.9%
-     • Volume: +58% vs 10-day avg
+  3. META ($665.43) - RS Score: 100/100
+     • 20-Day: +2.6% (vs SPX: +3.6%)
+     • Distance from 52w High: -16.3%
+     • Volume: +36% vs 10-day avg
 
 4. Swing-Trader Intention for Today
 **Today's Bias**: Defensive - watching support levels and hedges
 
 **Key Event**: No major scheduled releases - focus on technicals
 
-**Focus**: Watch Materials (XLB) for momentum
+**Focus**: Watch Utilities (XLU) for momentum
 
 **Risk**: Normal conditions - standard position sizing
 
 5. Swing Trade Checklist (based on yesterday's close)
 ✗ Market below 20-day MA (bearish structure)
 ✗ VIX elevated (>20) - high fear/volatility
-→ Mixed sector leadership
-✓ Volume above average (conviction move)
+✗ Defensive sectors leading (risk-off signal)
+✗ Volume below average (weak move)
 ✗ 5-day downtrend
 
-**Rating**: 3/10 (Neutral-Bearish)
+**Rating**: 0/10 (Bearish)
 
 6. Action Plan
-**Entry Zones**: [Fill after market open with specific levels]
 
-**Watchlist**: [Add specific tickers showing strength/weakness]
+**Watchlist**:
+  Momentum Leaders (RS):
+    • AAPL - Relative strength play
+    • GOOGL - Relative strength play
+    • META - Relative strength play
 
-**Risk Management**: [Set max position size and stop levels]
+**Risk Management**:
+  • Elevated volatility: Standard 50% position sizing
+  • Normal stops: Use 1.5-2 ATR stops
+  • Target: 2R or key resistance levels
 
 **What to Watch Tomorrow** (Friday, February 06):
 
 📊 **After-Hours Earnings Reactions**: No significant moves detected
 📅 **Economic Calendar**: No major releases scheduled
-⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open
-🔄 **Rotation Watch**: Monitor Materials for continued strength
+📈 **Gap Watch**: Strong close near highs - watch for potential gap up and continuation
+🔄 **Rotation Watch**: Monitor Utilities for continued strength
 
 **Key Movers**:
 
 • No significant after-hours moves detected
 
 7. One-Line Game Plan
-Defensive mode - waiting for bounce or shorting weakness.
+🔴 **Defensive mode** - Waiting for bounce or shorting weakness
+Focus: Gap-down bounces or breakdown continuation
+⚡ Elevated VIX (21) - Normal sizing, standard targets

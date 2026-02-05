@@ -1240,6 +1240,149 @@ class MarketRitual:
         
         return '\n'.join(output)
     
+    def generate_action_plan(self, rs_leaders, gap_movers_data):
+        """Generate actionable trading plan with specific levels and watchlist."""
+        action_plan = []
+        
+        # Entry Zones based on SPX levels and futures
+        es_change = self.futures_data.get('ES', {}).get('change_pct', 0)
+        sp_data = self.data.get('SP500', {})
+        
+        if sp_data:
+            support = sp_data.get('support')
+            resistance = sp_data.get('resistance')
+            close = sp_data.get('close')
+            
+            action_plan.append("**Entry Zones**:")
+            
+            if support and resistance and close:
+                # Bullish scenario
+                if es_change > 0.3:
+                    action_plan.append(f"  • Long on gap-up hold above {close:.2f}")
+                    action_plan.append(f"  • Target: {resistance:.2f} (+{((resistance-close)/close*100):.1f}%)")
+                    action_plan.append(f"  • Stop: Below {support:.2f}")
+                # Bearish scenario
+                elif es_change < -0.3:
+                    action_plan.append(f"  • Wait for bounce to {resistance:.2f} to short")
+                    action_plan.append(f"  • Or long on support test at {support:.2f}")
+                    action_plan.append(f"  • Stop: Outside SPX range ({support:.2f}-{resistance:.2f})")
+                # Neutral
+                else:
+                    action_plan.append(f"  • Range trade: Long {support:.2f}, Short {resistance:.2f}")
+                    action_plan.append(f"  • Breakout: Above {resistance:.2f} or below {support:.2f}")
+            else:
+                action_plan.append("  • Wait for market open to establish key levels")
+        else:
+            action_plan.append("**Entry Zones**:")
+            action_plan.append("  • Identify levels after market open based on opening range")
+        
+        # Watchlist from gap movers and RS leaders
+        action_plan.append("\n**Watchlist**:")
+        
+        # Parse gap movers string to extract tickers
+        watchlist_items = []
+        
+        # Add gap ups for long watch
+        if gap_movers_data and "Gap Up" in gap_movers_data:
+            lines = gap_movers_data.split('\n')
+            gap_ups = [line for line in lines if '•' in line and '+' in line][:3]
+            if gap_ups:
+                watchlist_items.append("  Longs (gap up continuation):")
+                for line in gap_ups[:3]:
+                    ticker = line.split(':')[0].split('•')[1].strip()
+                    watchlist_items.append(f"    • {ticker} - Watch for hold and higher")
+        
+        # Add gap downs for bounce/short watch
+        if gap_movers_data and "Gap Down" in gap_movers_data:
+            lines = gap_movers_data.split('\n')
+            gap_downs = [line for line in lines if '•' in line and '-' in line][:3]
+            if gap_downs:
+                watchlist_items.append("  Bounce/Short Plays:")
+                for line in gap_downs[:3]:
+                    ticker = line.split(':')[0].split('•')[1].strip()
+                    watchlist_items.append(f"    • {ticker} - Watch for bounce or further breakdown")
+        
+        # Add RS leaders
+        if rs_leaders:
+            watchlist_items.append("  Momentum Leaders (RS):")
+            for leader in rs_leaders[:3]:
+                watchlist_items.append(f"    • {leader['ticker']} - Relative strength play")
+        
+        if not watchlist_items:
+            action_plan.append("  • Review gap movers and RS leaders after market open")
+        else:
+            action_plan.extend(watchlist_items)
+        
+        # Risk Management based on VIX
+        vix_data = self.data.get('VIX', {})
+        vix_close = vix_data.get('close', 20)
+        
+        action_plan.append("\n**Risk Management**:")
+        if vix_close > 25:
+            action_plan.append("  • High volatility: Reduce position size to 25-50% of normal")
+            action_plan.append("  • Wider stops: Use 2-3 ATR stops")
+            action_plan.append("  • Quick profits: Take gains at 1.5R or less")
+        elif vix_close > 20:
+            action_plan.append("  • Elevated volatility: Standard 50% position sizing")
+            action_plan.append("  • Normal stops: Use 1.5-2 ATR stops")
+            action_plan.append("  • Target: 2R or key resistance levels")
+        else:
+            action_plan.append("  • Low volatility: Can use 75-100% position sizing")
+            action_plan.append("  • Tight stops: Use 1-1.5 ATR stops")
+            action_plan.append("  • Target: 3R or higher for runners")
+        
+        return '\n'.join(action_plan)
+    
+    def generate_enhanced_game_plan(self):
+        """Generate enhanced game plan with specific trading strategy."""
+        es_change = self.futures_data.get('ES', {}).get('change_pct', 0)
+        sp_data = self.data.get('SP500', {})
+        vix_data = self.data.get('VIX', {})
+        
+        vix_close = vix_data.get('close', 20)
+        
+        # Determine market regime
+        if sp_data:
+            close = sp_data.get('close')
+            ma_20 = sp_data.get('ma_20')
+            
+            if close and ma_20:
+                above_ma = close > ma_20
+            else:
+                above_ma = None
+        else:
+            above_ma = None
+        
+        # Build comprehensive game plan
+        game_plan_parts = []
+        
+        # Market bias
+        if es_change > 0.5:
+            game_plan_parts.append("🟢 **Bullish bias** - Hunting breakouts in leaders")
+            game_plan_parts.append("Focus: Gap-up stocks holding gains, RS leaders pushing higher")
+        elif es_change < -0.5:
+            game_plan_parts.append("🔴 **Defensive mode** - Waiting for bounce or shorting weakness")
+            game_plan_parts.append("Focus: Gap-down bounces or breakdown continuation")
+        else:
+            game_plan_parts.append("🟡 **Neutral mode** - Patience, let tape reveal direction")
+            game_plan_parts.append("Focus: Wait for clear directional move post-open")
+        
+        # Volatility consideration
+        if vix_close > 25:
+            game_plan_parts.append(f"⚠️ High VIX ({vix_close:.0f}) - Size down, take quick profits")
+        elif vix_close > 20:
+            game_plan_parts.append(f"⚡ Elevated VIX ({vix_close:.0f}) - Normal sizing, standard targets")
+        else:
+            game_plan_parts.append(f"✅ Low VIX ({vix_close:.0f}) - Can hold for larger moves")
+        
+        # Trend context
+        if above_ma is True:
+            game_plan_parts.append("📈 Above 20-MA: Favor longs on dips")
+        elif above_ma is False:
+            game_plan_parts.append("📉 Below 20-MA: Favor shorts on rips")
+        
+        return '\n'.join(game_plan_parts)
+    
     def generate_swing_checklist(self):
         """Generate automated swing trade checklist with rating."""
         checklist = []
@@ -1808,6 +1951,9 @@ class MarketRitual:
         intraday_levels = self.calculate_intraday_levels()
         fear_greed = self.fetch_fear_greed_index()
         
+        # Gap movers
+        gap_movers = self.generate_premarket_gap_movers()
+        
         # Build template
         template = f"""Date: {today}
 Pre-Market Futures Snapshot (as of {datetime.now().strftime('%I:%M %p CST')}):
@@ -1846,7 +1992,7 @@ Pre-Market Futures Snapshot (as of {datetime.now().strftime('%I:%M %p CST')}):
   Laggards (from yesterday): {', '.join(sectors['laggards']) if sectors['laggards'] else 'TBD at open'}
 
 3. Pre-Market Movers & Gap Setups
-{self.generate_premarket_gap_movers()}
+{gap_movers}
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
 {self._format_rs_leaders(rs_leaders)}
@@ -1864,29 +2010,15 @@ Pre-Market Futures Snapshot (as of {datetime.now().strftime('%I:%M %p CST')}):
 {swing_checklist}
 
 6. Action Plan
-**Entry Zones**: [Fill after market open with specific levels]
-
-**Watchlist**: [Add specific tickers showing strength/weakness]
-
-**Risk Management**: [Set max position size and stop levels]
+{self.generate_action_plan(rs_leaders, gap_movers)}
 
 {self.generate_watch_tomorrow()}
 
 {self.generate_key_movers()}
 
 7. One-Line Game Plan
+{self.generate_enhanced_game_plan()}
 """
-        
-        # Generate game plan
-        es_change = self.futures_data.get('ES', {}).get('change_pct', 0)
-        if es_change > 0.5:
-            game_plan = "Bullish bias - hunting breakouts in leaders."
-        elif es_change < -0.5:
-            game_plan = "Defensive mode - waiting for bounce or shorting weakness."
-        else:
-            game_plan = "Patience mode - letting the tape reveal direction."
-        
-        template += game_plan + "\n"
         
         return template
     
