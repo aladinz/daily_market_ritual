@@ -172,8 +172,8 @@ class MarketRitual:
         """Identify stocks with strong relative strength vs SPX.
         
         Returns top 3 stocks with:
-        - Outperforming SPX by >2% over 20 days
-        - Near 52-week highs (within 5%)
+        - Outperforming SPX over 20 days
+        - Strong recent momentum (5-day trend)
         - Above-average volume confirmation
         """
         print("Analyzing relative strength...")
@@ -181,15 +181,17 @@ class MarketRitual:
         try:
             # Fetch SPX for comparison
             spx = yf.Ticker('^GSPC')
-            spx_hist = spx.history(period='3mo')  # Need 60+ days for 52-week calc
+            spx_hist = spx.history(period='3mo')
             
             if len(spx_hist) < 20:
                 print("✗ Insufficient SPX data for RS analysis")
                 return []
             
-            # Calculate SPX 20-day return
+            # Calculate SPX returns
             spx_20d_return = ((spx_hist['Close'].iloc[-1] - spx_hist['Close'].iloc[-21]) / 
                               spx_hist['Close'].iloc[-21]) * 100
+            spx_5d_return = ((spx_hist['Close'].iloc[-1] - spx_hist['Close'].iloc[-6]) / 
+                             spx_hist['Close'].iloc[-6]) * 100
             
             rs_leaders = []
             
@@ -197,32 +199,31 @@ class MarketRitual:
             for ticker in self.STOCK_UNIVERSE:
                 try:
                     stock = yf.Ticker(ticker)
-                    stock_hist = stock.history(period='1y')  # Need 1 year for 52-week high
+                    stock_hist = stock.history(period='6mo')
                     
                     if len(stock_hist) < 20:
                         continue
                     
-                    # Calculate 20-day return
-                    stock_20d_return = ((stock_hist['Close'].iloc[-1] - stock_hist['Close'].iloc[-21]) / 
+                    # Calculate returns
+                    current_price = stock_hist['Close'].iloc[-1]
+                    stock_20d_return = ((current_price - stock_hist['Close'].iloc[-21]) / 
                                         stock_hist['Close'].iloc[-21]) * 100
+                    stock_5d_return = ((current_price - stock_hist['Close'].iloc[-6]) / 
+                                       stock_hist['Close'].iloc[-6]) * 100
                     
                     # Calculate relative performance vs SPX
-                    relative_perf = stock_20d_return - spx_20d_return
+                    relative_perf_20d = stock_20d_return - spx_20d_return
+                    relative_perf_5d = stock_5d_return - spx_5d_return
                     
-                    # Only consider stocks outperforming by >2%
-                    if relative_perf <= 2.0:
+                    # Focus on stocks with positive momentum (outperforming SPX)
+                    if relative_perf_20d <= 0:
                         continue
                     
-                    # Check 52-week high proximity
+                    # Check 52-week high proximity (but not as strict)
                     week_52_high = stock_hist['High'].max()
-                    current_price = stock_hist['Close'].iloc[-1]
                     pct_from_high = ((current_price - week_52_high) / week_52_high) * 100
                     
-                    # Only consider stocks within 5% of 52-week high
-                    if pct_from_high < -5.0:
-                        continue
-                    
-                    # Check volume confirmation (last 10 days vs prior 10 days)
+                    # Check volume confirmation
                     recent_vol = stock_hist['Volume'].iloc[-10:].mean()
                     prior_vol = stock_hist['Volume'].iloc[-20:-10].mean()
                     
@@ -231,18 +232,20 @@ class MarketRitual:
                     else:
                         vol_increase = 0
                     
-                    # Calculate RS Rating (simplified 0-100 scale)
-                    # Based on: relative performance (40%), 52-week high proximity (30%), volume (30%)
+                    # Calculate RS Rating (0-100 scale)
+                    # Emphasize recent momentum more than 52-week highs
                     rs_score = min(100, (
-                        (relative_perf / 10 * 40) +  # Cap relative perf contribution
-                        ((100 + pct_from_high) / 5 * 30) +  # 52-week high proximity
-                        (min(vol_increase, 50) * 0.6)  # Volume increase contribution
+                        (relative_perf_20d / 5 * 40) +  # 20-day relative performance
+                        (relative_perf_5d / 3 * 30) +    # 5-day momentum (more weight)
+                        ((100 + pct_from_high) / 10 * 20) +  # 52-week high proximity (less weight)
+                        (min(vol_increase, 50) * 0.2)    # Volume increase
                     ))
                     
                     rs_leaders.append({
                         'ticker': ticker,
-                        'relative_perf': relative_perf,
+                        'relative_perf': relative_perf_20d,
                         'stock_20d_return': stock_20d_return,
+                        'stock_5d_return': stock_5d_return,
                         'pct_from_52w_high': pct_from_high,
                         'vol_increase': vol_increase,
                         'rs_score': rs_score,
@@ -1670,6 +1673,18 @@ class MarketRitual:
         
         return '\n'.join(watch_items)
     
+    def _format_headlines(self):
+        """Format headlines for display (show top 3-5)."""
+        if not self.headlines:
+            return "  • Normal market conditions - no major overnight catalysts"
+        
+        formatted = []
+        # Show top 5 headlines
+        for i, headline in enumerate(self.headlines[:5], 1):
+            formatted.append(f"  {i}. {headline}")
+        
+        return '\n'.join(formatted)
+    
     def generate_key_movers(self):
         """
         Generate 'Key Movers' section with after-hours price action and catalysts.
@@ -1823,7 +1838,8 @@ Pre-Market Futures Snapshot (as of {datetime.now().strftime('%I:%M %p CST')}):
 2. What to Watch Today
 **Scheduled Events**: {scheduled_event if scheduled_event else 'No major scheduled releases'}
 
-**Overnight Headlines**: {self.headlines[0] if self.headlines else 'Normal market conditions'}
+**Overnight Headlines**:
+{self._format_headlines()}
 
 **Sector Focus**: 
   Leaders (from yesterday): {', '.join(sectors['leaders']) if sectors['leaders'] else 'TBD at open'}

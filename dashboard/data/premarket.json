@@ -1,19 +1,19 @@
 {
   "date": "February 05, 2026",
-  "last_updated": "February 05, 2026 at 08:07 AM CST",
+  "last_updated": "February 05, 2026 at 08:20 AM CST",
   "report_type": "Pre-Market",
   "snapshot": {
     "ES": {
-      "change": "-0.60%",
-      "close": "6865.00"
+      "change": "-0.66%",
+      "close": "6860.75"
     },
     "NQ": {
-      "change": "-0.78%",
-      "close": "24805.25"
+      "change": "-0.81%",
+      "close": "24797.75"
     },
     "YM": {
-      "change": "-0.31%",
-      "close": "49434.00"
+      "change": "-0.33%",
+      "close": "49424.00"
     }
   },
   "key_levels": {
@@ -31,7 +31,7 @@
     "expected_low": "6805.15",
     "expected_high": "6960.29",
     "gap_direction": "Gap Down",
-    "gap_pct": "0.26%"
+    "gap_pct": "0.32%"
   },
   "breadth": {
     "tone": "Bullish",
@@ -56,8 +56,8 @@
   },
   "sections": {
     "overnight_tone": "**Bearish Pre-Market** - Futures pointing to a negative open",
-    "what_to_watch": "**Scheduled Events**: No major scheduled releases\n\n**Overnight Headlines**: S&amp;P 500, Nasdaq gear up to build on tech sell-off\n\n**Sector Focus**: \n  Leaders (from yesterday): Materials (XLB), Energy (XLE)\n  Laggards (from yesterday): Communication Services (XLC), Technology (XLK)",
-    "movers": "**Gap Up Setups** (stocks opening >2% higher):\n  • ZM: +4.8% ($93.00 from $88.73) - Watch for continuation or fade\n  • NIO: +3.7% ($4.72 from $4.55) - Watch for continuation or fade\n  • AAPL: +2.4% ($276.00 from $269.48) - Watch for continuation or fade\n  • ADBE: +2.3% ($278.06 from $271.93) - Watch for continuation or fade\n\n**Gap Down Setups** (stocks opening >2% lower):\n  • AMD: -17.0% ($200.96 from $242.11) - Watch for bounce or breakdown\n  • PLTR: -14.5% ($135.00 from $157.88) - Watch for bounce or breakdown\n  • COIN: -11.2% ($159.59 from $179.66) - Watch for bounce or breakdown\n  • QCOM: -9.7% ($132.88 from $147.18) - Watch for bounce or breakdown\n  • GOOGL: -6.7% ($316.80 from $339.71) - Watch for bounce or breakdown",
+    "what_to_watch": "**Scheduled Events**: No major scheduled releases\n\n**Overnight Headlines**:\n  1. S&amp;P 500, Nasdaq gear up to build on tech sell-off\n  2. Bitcoin sinks below $70K after Bessent rules out crypto bailout\n  3. Bezos's 'darkest day' in billionaire-backed media\n  4. US weekly jobless claims increase more than expected\n  5. Silver tumbles, hit with fresh sell-off in China\n\n**Sector Focus**: \n  Leaders (from yesterday): Materials (XLB), Energy (XLE)\n  Laggards (from yesterday): Communication Services (XLC), Technology (XLK)",
+    "movers": "**Gap Up Setups** (stocks opening >2% higher):\n  • ZM: +4.1% ($92.40 from $88.73) - Watch for continuation or fade\n  • NIO: +3.7% ($4.72 from $4.55) - Watch for continuation or fade\n  • AAPL: +2.7% ($276.73 from $269.48) - Watch for continuation or fade\n  • ADBE: +2.4% ($278.40 from $271.93) - Watch for continuation or fade\n  • XOM: +2.2% ($146.85 from $143.73) - Watch for continuation or fade\n\n**Gap Down Setups** (stocks opening >2% lower):\n  • AMD: -17.4% ($200.00 from $242.11) - Watch for bounce or breakdown\n  • PLTR: -14.5% ($135.06 from $157.88) - Watch for bounce or breakdown\n  • COIN: -11.2% ($159.50 from $179.66) - Watch for bounce or breakdown\n  • QCOM: -9.8% ($132.71 from $147.18) - Watch for bounce or breakdown\n  • GOOGL: -8.1% ($312.16 from $339.71) - Watch for bounce or breakdown",
     "intention": "**Today's Bias**: Defensive - watching support levels and hedges\n\n**Key Event**: No major scheduled releases - focus on technicals\n\n**Focus**: Watch Materials (XLB) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
     "action_plan": "**Entry Zones**: [Fill after market open with specific levels]\n\n**Watchlist**: [Add specific tickers showing strength/weakness]\n\n**Risk Management**: [Set max position size and stop levels]\n\n**What to Watch Tomorrow** (Friday, February 06):\n\n📊 **After-Hours Earnings Reactions**: No significant moves detected\n📅 **Economic Calendar**: No major releases scheduled\n⚖️ **Gap Watch**: Mid-range close - expect potential range-bound open\n🔄 **Rotation Watch**: Monitor Materials for continued strength\n\n**Key Movers**:\n\n• No significant after-hours moves detected",
     "game_plan": "Defensive mode - waiting for bounce or shorting weakness."
@@ -82,13 +82,13 @@
       "vol_increase": "3"
     },
     {
-      "ticker": "JNJ",
-      "price": "234.47",
+      "ticker": "META",
+      "price": "668.99",
       "rs_score": "100",
-      "stock_return": "14.5",
-      "relative_perf": "15.4",
-      "pct_from_high": "-0.6",
-      "vol_increase": "-11"
+      "stock_return": "1.3",
+      "relative_perf": "2.2",
+      "pct_from_high": "-15.9",
+      "vol_increase": "58"
     }
   ],
   "checklist": {

@@ -1,8 +1,8 @@
 Date: February 05, 2026
-Pre-Market Futures Snapshot (as of 07:58 AM CST):
-- S&P 500 Futures (ES): -0.60% (level: 6865.00)
-- Nasdaq Futures (NQ): -0.78% (level: 24805.25)
-- Dow Futures (YM): -0.31% (level: 49434.00)
+Pre-Market Futures Snapshot (as of 08:20 AM CST):
+- S&P 500 Futures (ES): -0.66% (level: 6860.75)
+- Nasdaq Futures (NQ): -0.81% (level: 24797.75)
+- Dow Futures (YM): -0.33% (level: 49424.00)
 
 **Key Levels for Swing Traders** (from yesterday's close):
 - SPX Support: 6835.65 | Resistance: 6932.94
@@ -13,7 +13,7 @@ Pre-Market Futures Snapshot (as of 07:58 AM CST):
   • Yesterday's Close: 6882.72
   • ATR (14-day): 77.57 points (1.1%)
   • Expected Today's Range: 6805.15 - 6960.29
-  • Opening Gap: Gap Down 0.26%
+  • Opening Gap: Gap Down 0.32%
 
 **Market Breadth**: Bullish
   • 64.2% of stocks above 50-day MA
@@ -29,7 +29,7 @@ Pre-Market Futures Snapshot (as of 07:58 AM CST):
 **Volume**: High conviction selling (volume +25% vs. avg)
 
 **Futures Context**:
-**Futures 5-Day Trend**: Mild downtrend (-1.8%)
+**Futures 5-Day Trend**: Mild downtrend (-1.9%)
 
 1. Overnight Tone
 **Bearish Pre-Market** - Futures pointing to a negative open
@@ -37,7 +37,12 @@ Pre-Market Futures Snapshot (as of 07:58 AM CST):
 2. What to Watch Today
 **Scheduled Events**: No major scheduled releases
 
-**Overnight Headlines**: S&amp;P 500, Nasdaq gear up to build on tech sell-off
+**Overnight Headlines**:
+  1. S&amp;P 500, Nasdaq gear up to build on tech sell-off
+  2. Bitcoin sinks below $70K after Bessent rules out crypto bailout
+  3. Bezos's 'darkest day' in billionaire-backed media
+  4. US weekly jobless claims increase more than expected
+  5. Silver tumbles, hit with fresh sell-off in China
 
 **Sector Focus**: 
   Leaders (from yesterday): Materials (XLB), Energy (XLE)
@@ -45,17 +50,18 @@ Pre-Market Futures Snapshot (as of 07:58 AM CST):
 
 3. Pre-Market Movers & Gap Setups
 **Gap Up Setups** (stocks opening >2% higher):
-  • ZM: +4.8% ($93.00 from $88.73) - Watch for continuation or fade
+  • ZM: +4.1% ($92.40 from $88.73) - Watch for continuation or fade
   • NIO: +3.7% ($4.72 from $4.55) - Watch for continuation or fade
-  • AAPL: +2.4% ($276.00 from $269.48) - Watch for continuation or fade
-  • ADBE: +2.3% ($278.06 from $271.93) - Watch for continuation or fade
+  • AAPL: +2.7% ($276.73 from $269.48) - Watch for continuation or fade
+  • ADBE: +2.4% ($278.40 from $271.93) - Watch for continuation or fade
+  • XOM: +2.2% ($146.85 from $143.73) - Watch for continuation or fade
 
 **Gap Down Setups** (stocks opening >2% lower):
-  • AMD: -17.0% ($200.96 from $242.11) - Watch for bounce or breakdown
-  • PLTR: -14.5% ($135.00 from $157.88) - Watch for bounce or breakdown
-  • COIN: -11.2% ($159.59 from $179.66) - Watch for bounce or breakdown
-  • QCOM: -9.7% ($132.88 from $147.18) - Watch for bounce or breakdown
-  • GOOGL: -6.7% ($316.80 from $339.71) - Watch for bounce or breakdown
+  • AMD: -17.4% ($200.00 from $242.11) - Watch for bounce or breakdown
+  • PLTR: -14.5% ($135.06 from $157.88) - Watch for bounce or breakdown
+  • COIN: -11.2% ($159.50 from $179.66) - Watch for bounce or breakdown
+  • QCOM: -9.8% ($132.71 from $147.18) - Watch for bounce or breakdown
+  • GOOGL: -8.1% ($312.16 from $339.71) - Watch for bounce or breakdown
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
   1. AAPL ($276.49) - RS Score: 100/100
@@ -66,10 +72,10 @@ Pre-Market Futures Snapshot (as of 07:58 AM CST):
      • 20-Day: +5.9% (vs SPX: +6.8%)
      • Distance from 52w High: -4.6%
      • Volume: +3% vs 10-day avg
-  3. JNJ ($234.47) - RS Score: 100/100
-     • 20-Day: +14.5% (vs SPX: +15.4%)
-     • Distance from 52w High: -0.6%
-     • Volume: -11% vs 10-day avg
+  3. META ($668.99) - RS Score: 100/100
+     • 20-Day: +1.3% (vs SPX: +2.2%)
+     • Distance from 52w High: -15.9%
+     • Volume: +58% vs 10-day avg
 
 4. Swing-Trader Intention for Today
 **Today's Bias**: Defensive - watching support levels and hedges
