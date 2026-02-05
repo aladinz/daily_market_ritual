@@ -235,10 +235,10 @@ function renderReport(type, data) {
         reportContent.appendChild(renderSnapshot(data.snapshot, type));
     }
     
-    // Render key levels
-    if (data.key_levels) {
-        reportContent.appendChild(renderKeyLevels(data.key_levels));
-    }
+    // Key levels hidden - not useful for swing traders
+    // if (data.key_levels) {
+    //     reportContent.appendChild(renderKeyLevels(data.key_levels));
+    // }
     
     // Render intraday levels
     if (data.intraday_levels) {

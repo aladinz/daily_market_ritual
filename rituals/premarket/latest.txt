@@ -1,8 +1,8 @@
 Date: February 05, 2026
-Pre-Market Futures Snapshot (as of 07:25 AM CST):
-- S&P 500 Futures (ES): -0.52% (level: 6870.50)
-- Nasdaq Futures (NQ): -0.77% (level: 24806.75)
-- Dow Futures (YM): -0.30% (level: 49440.00)
+Pre-Market Futures Snapshot (as of 07:58 AM CST):
+- S&P 500 Futures (ES): -0.60% (level: 6865.00)
+- Nasdaq Futures (NQ): -0.78% (level: 24805.25)
+- Dow Futures (YM): -0.31% (level: 49434.00)
 
 **Key Levels for Swing Traders** (from yesterday's close):
 - SPX Support: 6835.65 | Resistance: 6932.94
@@ -13,7 +13,7 @@ Pre-Market Futures Snapshot (as of 07:25 AM CST):
   • Yesterday's Close: 6882.72
   • ATR (14-day): 77.57 points (1.1%)
   • Expected Today's Range: 6805.15 - 6960.29
-  • Opening Gap: Gap Down 0.18%
+  • Opening Gap: Gap Down 0.26%
 
 **Market Breadth**: Bullish
   • 64.2% of stocks above 50-day MA
@@ -29,7 +29,7 @@ Pre-Market Futures Snapshot (as of 07:25 AM CST):
 **Volume**: High conviction selling (volume +25% vs. avg)
 
 **Futures Context**:
-**Futures 5-Day Trend**: Mild downtrend (-1.7%)
+**Futures 5-Day Trend**: Mild downtrend (-1.8%)
 
 1. Overnight Tone
 **Bearish Pre-Market** - Futures pointing to a negative open
@@ -43,9 +43,19 @@ Pre-Market Futures Snapshot (as of 07:25 AM CST):
   Leaders (from yesterday): Materials (XLB), Energy (XLE)
   Laggards (from yesterday): Communication Services (XLC), Technology (XLK)
 
-3. Pre-Market Movers
-Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.
-Look for: Earnings reactions, overnight news catalysts, technical breakouts.
+3. Pre-Market Movers & Gap Setups
+**Gap Up Setups** (stocks opening >2% higher):
+  • ZM: +4.8% ($93.00 from $88.73) - Watch for continuation or fade
+  • NIO: +3.7% ($4.72 from $4.55) - Watch for continuation or fade
+  • AAPL: +2.4% ($276.00 from $269.48) - Watch for continuation or fade
+  • ADBE: +2.3% ($278.06 from $271.93) - Watch for continuation or fade
+
+**Gap Down Setups** (stocks opening >2% lower):
+  • AMD: -17.0% ($200.96 from $242.11) - Watch for bounce or breakdown
+  • PLTR: -14.5% ($135.00 from $157.88) - Watch for bounce or breakdown
+  • COIN: -11.2% ($159.59 from $179.66) - Watch for bounce or breakdown
+  • QCOM: -9.7% ($132.88 from $147.18) - Watch for bounce or breakdown
+  • GOOGL: -6.7% ($316.80 from $339.71) - Watch for bounce or breakdown
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
   1. AAPL ($276.49) - RS Score: 100/100

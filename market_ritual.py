@@ -1161,6 +1161,82 @@ class MarketRitual:
         
         return analysis
     
+    def generate_premarket_gap_movers(self):
+        """Generate pre-market gap movers for swing trading."""
+        movers = []
+        
+        # Get a focused list of liquid stocks for pre-market scanning
+        scan_tickers = [
+            'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'TSLA', 'META',
+            'AMD', 'NFLX', 'CRM', 'AVGO', 'ORCL', 'ADBE', 'CSCO',
+            'INTC', 'QCOM', 'TXN', 'NOW', 'UBER', 'SHOP',
+            'SQ', 'COIN', 'PLTR', 'SNAP', 'ZM', 'DOCU', 'DKNG',
+            'NIO', 'LCID', 'RIVN', 'F', 'GM', 'BA', 'CAT',
+            'JPM', 'BAC', 'WFC', 'GS', 'MS', 'C',
+            'XOM', 'CVX', 'COP', 'SLB', 'MRO'
+        ]
+        
+        for ticker in scan_tickers:
+            try:
+                stock = yf.Ticker(ticker)
+                info = stock.info
+                
+                # Get regular market previous close
+                reg_close = info.get('regularMarketPreviousClose')
+                if not reg_close:
+                    reg_close = info.get('previousClose')
+                
+                # Get pre-market price
+                premarket_price = info.get('preMarketPrice')
+                
+                if reg_close and premarket_price:
+                    gap_pct = ((premarket_price - reg_close) / reg_close) * 100
+                    
+                    # Only show significant gaps (> 2% or < -2%)
+                    if abs(gap_pct) >= 2.0:
+                        movers.append({
+                            'ticker': ticker,
+                            'gap_pct': gap_pct,
+                            'premarket_price': premarket_price,
+                            'prev_close': reg_close
+                        })
+                
+                time.sleep(0.05)  # Rate limiting
+                
+            except Exception as e:
+                continue
+        
+        # Sort by absolute gap percentage
+        movers.sort(key=lambda x: abs(x['gap_pct']), reverse=True)
+        
+        # Format output
+        if not movers:
+            return "No significant gaps detected in pre-market (>2%). Market opening near fair value."
+        
+        output = []
+        gap_ups = [m for m in movers if m['gap_pct'] > 0][:5]
+        gap_downs = [m for m in movers if m['gap_pct'] < 0][:5]
+        
+        if gap_ups:
+            output.append("**Gap Up Setups** (stocks opening >2% higher):")
+            for mover in gap_ups:
+                output.append(
+                    f"  • {mover['ticker']}: +{mover['gap_pct']:.1f}% "
+                    f"(${mover['premarket_price']:.2f} from ${mover['prev_close']:.2f}) "
+                    f"- Watch for continuation or fade"
+                )
+        
+        if gap_downs:
+            output.append("\n**Gap Down Setups** (stocks opening >2% lower):")
+            for mover in gap_downs:
+                output.append(
+                    f"  • {mover['ticker']}: {mover['gap_pct']:.1f}% "
+                    f"(${mover['premarket_price']:.2f} from ${mover['prev_close']:.2f}) "
+                    f"- Watch for bounce or breakdown"
+                )
+        
+        return '\n'.join(output)
+    
     def generate_swing_checklist(self):
         """Generate automated swing trade checklist with rating."""
         checklist = []
@@ -1753,9 +1829,8 @@ Pre-Market Futures Snapshot (as of {datetime.now().strftime('%I:%M %p CST')}):
   Leaders (from yesterday): {', '.join(sectors['leaders']) if sectors['leaders'] else 'TBD at open'}
   Laggards (from yesterday): {', '.join(sectors['laggards']) if sectors['laggards'] else 'TBD at open'}
 
-3. Pre-Market Movers
-Check pre-market volume leaders and any gap-up/gap-down setups after 8:00 AM ET.
-Look for: Earnings reactions, overnight news catalysts, technical breakouts.
+3. Pre-Market Movers & Gap Setups
+{self.generate_premarket_gap_movers()}
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
 {self._format_rs_leaders(rs_leaders)}
