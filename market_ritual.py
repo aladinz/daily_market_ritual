@@ -1214,7 +1214,12 @@ class MarketRitual:
         
         # Format output
         if not movers:
-            return "No significant gaps detected in pre-market (>2%). Market opening near fair value."
+            current_hour = datetime.now().hour
+            # Check if it's close to market open (8:15-9:30 AM CST / 9:15-10:30 AM EST)
+            if 8 <= current_hour < 10:
+                return "**Market Opening Soon** - Pre-market scan complete. No major gaps (>2%) detected. Market opening near fair value. Focus on opening range and first 30-minute action."
+            else:
+                return "No significant gaps detected in pre-market (>2%). Market opening near fair value."
         
         output = []
         gap_ups = [m for m in movers if m['gap_pct'] > 0][:5]
@@ -1888,7 +1893,7 @@ class MarketRitual:
             if found_movers:
                 movers_list.extend(found_movers)
             else:
-                movers_list.append("• No significant after-hours moves detected")
+                movers_list.append("• No significant after-hours moves (>1%). Quiet session - focus on today's price action and intraday setups.")
                 
         except Exception as e:
             movers_list.append("• Data temporarily unavailable")

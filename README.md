@@ -82,6 +82,11 @@ This will:
 4. Push to GitHub
 5. Dashboard auto-updates in 2-3 minutes
 
+**⏰ Optimal Timing for Best Data:**
+- **Pre-Market**: Run between **6:30-7:30 AM CST** (4:00-8:00 AM PT) for live gap data
+- **Post-Market**: Run **15 minutes after close** (3:15 PM CT) for final prices and after-hours moves
+- Running too close to market open (8:30+ AM CT) will miss pre-market gap setups
+
 ## 🎨 Dashboard Deployment
 
 ### Live Dashboard
