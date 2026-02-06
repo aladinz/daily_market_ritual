@@ -1,45 +1,45 @@
 {
-  "date": "February 05, 2026",
-  "last_updated": "February 05, 2026 at 08:48 AM CST",
+  "date": "February 06, 2026",
+  "last_updated": "February 06, 2026 at 07:15 AM CST",
   "report_type": "Pre-Market",
   "snapshot": {
     "ES": {
-      "change": "-0.78%",
-      "close": "6852.25"
+      "change": "+0.41%",
+      "close": "6848.75"
     },
     "NQ": {
-      "change": "-0.83%",
-      "close": "24792.25"
+      "change": "+0.48%",
+      "close": "24768.25"
     },
     "YM": {
-      "change": "-0.58%",
-      "close": "49300.00"
+      "change": "+0.45%",
+      "close": "49220.00"
     }
   },
   "key_levels": {
-    "support": "6820.07",
-    "resistance": "6868.60",
-    "ma_20": "6929.20",
-    "ma_50": "6882.19"
+    "support": "6766.40",
+    "resistance": "6844.12",
+    "ma_20": "6926.58",
+    "ma_50": "6881.14"
   },
   "intraday_levels": {
-    "yesterday_low": "6806.92",
-    "yesterday_high": "6855.45",
-    "yesterday_close": "6851.47",
-    "atr": "79.22",
+    "yesterday_low": "6780.13",
+    "yesterday_high": "6857.85",
+    "yesterday_close": "6798.40",
+    "atr": "81.13",
     "atr_pct": "1.2%",
-    "expected_low": "6772.25",
-    "expected_high": "6930.69",
+    "expected_low": "6717.27",
+    "expected_high": "6879.53",
     "gap_direction": "Gap Up",
-    "gap_pct": "0.01%"
+    "gap_pct": "0.74%"
   },
   "breadth": {
-    "tone": "Neutral",
-    "pct_above_50ma": "58.5%",
-    "advancing": "24",
-    "declining": "29",
-    "ad_ratio": "0.83",
-    "breadth_score": "75"
+    "tone": "Bearish",
+    "pct_above_50ma": "56.6%",
+    "advancing": "17",
+    "declining": "36",
+    "ad_ratio": "0.47",
+    "breadth_score": "74"
   },
   "sentiment": {
     "score": "32",
@@ -49,63 +49,63 @@
     "signal": "Potential reversal setup - watch for bottoming"
   },
   "market_context": {
-    "five_day_trend": "Mild downtrend (-1.7%)",
-    "wtd": "-1.3%",
+    "five_day_trend": "Strong downtrend (-2.4%)",
+    "wtd": "-2.0%",
     "ma_structure": "Below 20-day MA",
-    "volume": "Very Low participation (volume -93% vs. avg) - suspect move"
+    "volume": "Above Average participation (volume +14% vs. avg)"
   },
   "sections": {
-    "overnight_tone": "**Bearish Pre-Market** - Futures pointing to a negative open",
-    "what_to_watch": "**Scheduled Events**: No major scheduled releases\n\n**Overnight Headlines**:\n  1. S&amp;P 500, Nasdaq sink, adding to tech sell-off\n  2. Bitcoin sinks below $70K after Bessent rules out crypto bailout\n  3. Bezos's 'darkest day' in billionaire-backed media\n  4. US weekly jobless claims increase more than expected\n  5. Silver tumbles, hit with fresh sell-off in China\n\n**Sector Focus**: \n  Leaders (from yesterday): Utilities (XLU), Consumer Staples (XLP)\n  Laggards (from yesterday): Energy (XLE), Consumer Discretionary (XLY)",
-    "movers": "No significant gaps detected in pre-market (>2%). Market opening near fair value.",
-    "intention": "**Today's Bias**: Defensive - watching support levels and hedges\n\n**Key Event**: No major scheduled releases - focus on technicals\n\n**Focus**: Watch Utilities (XLU) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
-    "action_plan": "**Watchlist**:\n  Momentum Leaders (RS):\n    • AAPL - Relative strength play\n    • GOOGL - Relative strength play\n    • META - Relative strength play\n\n**Risk Management**:\n  • Elevated volatility: Standard 50% position sizing\n  • Normal stops: Use 1.5-2 ATR stops\n  • Target: 2R or key resistance levels\n\n**What to Watch Tomorrow** (Friday, February 06):\n\n📊 **After-Hours Earnings Reactions**: No significant moves detected\n📅 **Economic Calendar**: No major releases scheduled\n📈 **Gap Watch**: Strong close near highs - watch for potential gap up and continuation\n🔄 **Rotation Watch**: Monitor Utilities for continued strength\n\n**Key Movers**:\n\n• No significant after-hours moves detected",
-    "game_plan": "🔴 **Defensive mode** - Waiting for bounce or shorting weakness\nFocus: Gap-down bounces or breakdown continuation\n⚡ Elevated VIX (21) - Normal sizing, standard targets"
+    "overnight_tone": "**Cautiously Bullish** - Modest gains in overnight futures",
+    "what_to_watch": "**Scheduled Events**: No major scheduled releases\n\n**Overnight Headlines**:\n  1. US stocks eye rebound from sell-off as bitcoin climbs\n  2. Stellantis tanks on $26B charge as it puts EV push into reverse\n  3. Bitcoin claws its way back to $66,000 as tech rout slows\n  4. Amazon sinks after vow to spend $200 billion on AI this year\n  5. BYD's $60 billion wipeout points to deeper turmoil for China EVs\n\n**Sector Focus**: \n  Leaders (from yesterday): Utilities (XLU), Consumer Staples (XLP)\n  Laggards (from yesterday): Consumer Discretionary (XLY), Materials (XLB)",
+    "movers": "**Gap Up Setups** (stocks opening >2% higher):\n  • NIO: +10.4% ($4.90 from $4.44) - Watch for continuation or fade\n  • AVGO: +4.3% ($321.17 from $308.05) - Watch for continuation or fade\n  • CSCO: +3.0% ($83.60 from $81.16) - Watch for continuation or fade\n  • UBER: +2.7% ($75.90 from $73.92) - Watch for continuation or fade\n\n**Gap Down Setups** (stocks opening >2% lower):\n  • AMZN: -11.9% ($205.25 from $232.99) - Watch for bounce or breakdown\n  • SNAP: -11.2% ($5.25 from $5.91) - Watch for bounce or breakdown\n  • COIN: -8.4% ($154.48 from $168.62) - Watch for bounce or breakdown\n  • QCOM: -7.9% ($137.14 from $148.89) - Watch for bounce or breakdown\n  • LCID: -6.6% ($9.70 from $10.38) - Watch for bounce or breakdown",
+    "intention": "**Today's Bias**: Neutral - waiting for clear setups\n\n**Key Event**: No major scheduled releases - focus on technicals\n\n**Focus**: Watch Utilities (XLU) for momentum\n\n**Risk**: Normal conditions - standard position sizing",
+    "action_plan": "**Entry Zones**:\n  • Wait for market open to establish key levels\n\n**Watchlist**:\n  Longs (gap up continuation):\n    • NIO - Watch for hold and higher\n    • AVGO - Watch for hold and higher\n    • CSCO - Watch for hold and higher\n  Bounce/Short Plays:\n    • NIO - Watch for bounce or further breakdown\n    • AVGO - Watch for bounce or further breakdown\n    • CSCO - Watch for bounce or further breakdown\n  Momentum Leaders (RS):\n    • AAPL - Relative strength play\n    • GOOGL - Relative strength play\n    • META - Relative strength play\n\n**Risk Management**:\n  • Elevated volatility: Standard 50% position sizing\n  • Normal stops: Use 1.5-2 ATR stops\n  • Target: 2R or key resistance levels\n\n**What to Watch Tomorrow** (Saturday, February 07):\n\n📊 **After-Hours Earnings Reactions**: No significant moves detected\n📅 **Economic Calendar**: No major releases scheduled\n📉 **Gap Watch**: Weak close near lows - watch for potential gap down and further weakness\n🔄 **Rotation Watch**: Monitor Utilities for continued strength\n\n**Key Movers**:\n\n• No significant after-hours moves (>1%). Quiet session - focus on today's price action and intraday setups.",
+    "game_plan": "🟡 **Neutral mode** - Patience, let tape reveal direction\nFocus: Wait for clear directional move post-open\n⚡ Elevated VIX (20) - Normal sizing, standard targets"
   },
   "rs_leaders": [
     {
       "ticker": "AAPL",
-      "price": "273.50",
+      "price": "275.91",
       "rs_score": "100",
-      "stock_return": "5.1",
-      "relative_perf": "6.1",
-      "pct_from_high": "-5.2",
-      "vol_increase": "15"
+      "stock_return": "6.0",
+      "relative_perf": "7.8",
+      "pct_from_high": "-4.4",
+      "vol_increase": "24"
     },
     {
       "ticker": "GOOGL",
-      "price": "323.04",
+      "price": "331.25",
       "rs_score": "100",
-      "stock_return": "0.3",
-      "relative_perf": "1.3",
-      "pct_from_high": "-7.4",
-      "vol_increase": "3"
+      "stock_return": "2.9",
+      "relative_perf": "4.6",
+      "pct_from_high": "-5.1",
+      "vol_increase": "25"
     },
     {
       "ticker": "META",
-      "price": "665.43",
+      "price": "670.21",
       "rs_score": "100",
-      "stock_return": "2.6",
-      "relative_perf": "3.6",
-      "pct_from_high": "-16.3",
-      "vol_increase": "36"
+      "stock_return": "3.3",
+      "relative_perf": "5.1",
+      "pct_from_high": "-15.7",
+      "vol_increase": "46"
     }
   ],
   "checklist": {
-    "rating": "0/10",
+    "rating": "2/10",
     "interpretation": "Bearish",
     "items": [
       "✗ Market below 20-day MA (bearish structure)",
       "✗ VIX elevated (>20) - high fear/volatility",
       "✗ Defensive sectors leading (risk-off signal)",
-      "✗ Volume below average (weak move)",
+      "✓ Volume above average (conviction move)",
       "✗ 5-day downtrend"
     ]
   },
   "watch_tomorrow": {
     "after_hours": "No significant moves detected",
     "economic_calendar": "No major releases scheduled",
-    "gap_watch": "Strong close near highs - watch for potential gap up and continuation",
+    "gap_watch": "Weak close near lows - watch for potential gap down and further weakness",
     "rotation_watch": "Monitor Utilities for continued strength"
   },
   "key_movers": []
