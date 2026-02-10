@@ -1,98 +1,96 @@
-Date: February 06, 2026
-Pre-Market Futures Snapshot (as of 07:07 AM CST):
-- S&P 500 Futures (ES): +0.44% (level: 6850.75)
-- Nasdaq Futures (NQ): +0.55% (level: 24786.75)
-- Dow Futures (YM): +0.43% (level: 49207.00)
+Date: February 10, 2026
+Pre-Market Futures Snapshot (as of 07:40 AM CST):
+- S&P 500 Futures (ES): -0.08% (level: 6977.75)
+- Nasdaq Futures (NQ): -0.11% (level: 25327.00)
+- Dow Futures (YM): -0.10% (level: 50170.00)
 
 **Key Levels for Swing Traders** (from yesterday's close):
-- SPX Support: 6766.40 | Resistance: 6844.12
-- SPX 20-day MA: 6926.58 | 50-day MA: 6881.14
+- SPX Support: 6920.43 | Resistance: 6994.66
+- SPX 20-day MA: 6927.05 | 50-day MA: 6889.66
 
 **Intraday Reference Levels** (SPX):
-  • Yesterday's Range: 6780.13 - 6857.85
-  • Yesterday's Close: 6798.40
-  • ATR (14-day): 81.13 points (1.2%)
-  • Expected Today's Range: 6717.27 - 6879.53
-  • Opening Gap: Gap Up 0.77%
+  • Yesterday's Range: 6905.87 - 6980.10
+  • Yesterday's Close: 6964.82
+  • ATR (14-day): 83.10 points (1.2%)
+  • Expected Today's Range: 6881.72 - 7047.92
+  • Opening Gap: Gap Up 0.19%
 
 **Market Breadth**: Bearish
-  • 56.6% of stocks above 50-day MA
-  • Advance/Decline: 17/36 (ratio: 0.47)
-  • Breadth Score: 74/100
+  • 62.3% of stocks above 50-day MA
+  • Advance/Decline: 23/30 (ratio: 0.77)
+  • Breadth Score: 77/100
 
-**Sentiment - CNN Fear & Greed Index**: 32/100 (Fear)  [VIX-based proxy]
-  ██████░░░░░░░░░░░░░░
-  Signal: Potential reversal setup - watch for bottoming
+**Sentiment - CNN Fear & Greed Index**: 50/100 (Neutral)  [VIX-based proxy]
+  ██████████░░░░░░░░░░
+  Signal: Balanced sentiment - no extreme
 
 **Market Context** (from yesterday's close):
-**5-Day Trend**: Strong downtrend (-2.4%) | **Week-to-Date**: -2.0% | **MA Structure**: Below 20-day MA
-**Volume**: Above Average participation (volume +14% vs. avg)
+**5-Day Trend**: Sideways (-0.2%) | **Week-to-Date**: +0.7% | **MA Structure**: Bullish (above 20 & 50-day MAs)
+**Volume**: Below Average participation (volume -11% vs. avg)
 
 **Futures Context**:
-**Futures 5-Day Trend**: Mild downtrend (-1.7%)
+**Futures 5-Day Trend**: Mild uptrend (+0.5%)
 
 1. Overnight Tone
-**Cautiously Bullish** - Modest gains in overnight futures
+**Flat/Mixed** - Futures showing little direction
 
 2. What to Watch Today
 **Scheduled Events**: No major scheduled releases
 
 **Overnight Headlines**:
-  1. US stocks eye rebound from sell-off as bitcoin climbs
-  2. Stellantis tanks on $26B charge as it puts EV push into reverse
-  3. Bitcoin claws its way back to $66,000 as tech rout slows
-  4. Amazon sinks after vow to spend $200 billion on AI this year
-  5. BYD's $60 billion wipeout points to deeper turmoil for China EVs
+  1. US stocks eye return to rally as data deluge looms
+  2. Bitcoin resumes slide, sinks below $69,000
+  3. Memory chip squeeze widens gulf between winners and losers
+  4. Earnings: Spotify stock jumps on strong subscriber growth
+  5. Cisco takes on Nvidia with new AI networking chip
 
 **Sector Focus**: 
-  Leaders (from yesterday): Utilities (XLU), Consumer Staples (XLP)
-  Laggards (from yesterday): Consumer Discretionary (XLY), Materials (XLB)
+  Leaders (from yesterday): Technology (XLK), Materials (XLB)
+  Laggards (from yesterday): Financials (XLF), Healthcare (XLV)
 
 3. Pre-Market Movers & Gap Setups
 **Gap Up Setups** (stocks opening >2% higher):
-  • NIO: +10.8% ($4.92 from $4.44) - Watch for continuation or fade
-  • AVGO: +4.0% ($320.51 from $308.05) - Watch for continuation or fade
-  • CSCO: +3.1% ($83.64 from $81.16) - Watch for continuation or fade
-  • UBER: +2.5% ($75.76 from $73.92) - Watch for continuation or fade
+  • ORCL: +10.7% ($158.15 from $142.82) - Watch for continuation or fade
+  • SHOP: +10.2% ($123.48 from $112.05) - Watch for continuation or fade
+  • PLTR: +6.9% ($145.28 from $135.90) - Watch for continuation or fade
+  • AVGO: +4.2% ($346.35 from $332.50) - Watch for continuation or fade
+  • AMD: +4.0% ($216.76 from $208.44) - Watch for continuation or fade
 
 **Gap Down Setups** (stocks opening >2% lower):
-  • SNAP: -12.7% ($5.16 from $5.91) - Watch for bounce or breakdown
-  • AMZN: -12.1% ($204.70 from $232.99) - Watch for bounce or breakdown
-  • COIN: -9.0% ($153.50 from $168.62) - Watch for bounce or breakdown
-  • QCOM: -7.9% ($137.11 from $148.89) - Watch for bounce or breakdown
-  • LCID: -6.6% ($9.69 from $10.38) - Watch for bounce or breakdown
+  • GM: -3.9% ($80.97 from $84.24) - Watch for bounce or breakdown
+  • NIO: -2.7% ($4.91 from $5.04) - Watch for bounce or breakdown
 
 3a. Relative Strength Leaders (20-Day RS vs SPX)
-  1. AAPL ($275.91) - RS Score: 100/100
-     • 20-Day: +6.0% (vs SPX: +7.8%)
-     • Distance from 52w High: -4.4%
-     • Volume: +24% vs 10-day avg
-  2. GOOGL ($331.25) - RS Score: 100/100
-     • 20-Day: +2.9% (vs SPX: +4.6%)
-     • Distance from 52w High: -5.1%
-     • Volume: +25% vs 10-day avg
-  3. META ($670.21) - RS Score: 100/100
-     • 20-Day: +3.3% (vs SPX: +5.1%)
-     • Distance from 52w High: -15.7%
-     • Volume: +46% vs 10-day avg
+  1. AAPL ($274.62) - RS Score: 100/100
+     • 20-Day: +6.0% (vs SPX: +6.0%)
+     • Distance from 52w High: -4.8%
+     • Volume: +22% vs 10-day avg
+  2. NVDA ($190.04) - RS Score: 100/100
+     • 20-Day: +2.8% (vs SPX: +2.8%)
+     • Distance from 52w High: -10.4%
+     • Volume: +10% vs 10-day avg
+  3. META ($677.22) - RS Score: 100/100
+     • 20-Day: +3.7% (vs SPX: +3.7%)
+     • Distance from 52w High: -14.8%
+     • Volume: +29% vs 10-day avg
 
 4. Swing-Trader Intention for Today
 **Today's Bias**: Neutral - waiting for clear setups
 
 **Key Event**: No major scheduled releases - focus on technicals
 
-**Focus**: Watch Utilities (XLU) for momentum
+**Focus**: Watch Technology (XLK) for momentum
 
 **Risk**: Normal conditions - standard position sizing
 
 5. Swing Trade Checklist (based on yesterday's close)
-✗ Market below 20-day MA (bearish structure)
-✗ VIX elevated (>20) - high fear/volatility
-✗ Defensive sectors leading (risk-off signal)
-✓ Volume above average (conviction move)
-✗ 5-day downtrend
+✓ Market above 20-day MA (bullish structure)
+→ VIX moderate (15-20) - normal conditions
+✓ Growth sectors leading (risk-on signal)
+✗ Volume below average (weak move)
+→ 5-day sideways action
 
-**Rating**: 2/10 (Bearish)
+**Rating**: 6/10 (Neutral-Bullish)
 
 6. Action Plan
 **Entry Zones**:
@@ -100,29 +98,29 @@ Pre-Market Futures Snapshot (as of 07:07 AM CST):
 
 **Watchlist**:
   Longs (gap up continuation):
-    • NIO - Watch for hold and higher
-    • AVGO - Watch for hold and higher
-    • CSCO - Watch for hold and higher
+    • ORCL - Watch for hold and higher
+    • SHOP - Watch for hold and higher
+    • PLTR - Watch for hold and higher
   Bounce/Short Plays:
-    • NIO - Watch for bounce or further breakdown
-    • AVGO - Watch for bounce or further breakdown
-    • CSCO - Watch for bounce or further breakdown
+    • ORCL - Watch for bounce or further breakdown
+    • SHOP - Watch for bounce or further breakdown
+    • PLTR - Watch for bounce or further breakdown
   Momentum Leaders (RS):
     • AAPL - Relative strength play
-    • GOOGL - Relative strength play
+    • NVDA - Relative strength play
     • META - Relative strength play
 
 **Risk Management**:
-  • Elevated volatility: Standard 50% position sizing
-  • Normal stops: Use 1.5-2 ATR stops
-  • Target: 2R or key resistance levels
+  • Low volatility: Can use 75-100% position sizing
+  • Tight stops: Use 1-1.5 ATR stops
+  • Target: 3R or higher for runners
 
-**What to Watch Tomorrow** (Saturday, February 07):
+**What to Watch Tomorrow** (Wednesday, February 11):
 
 📊 **After-Hours Earnings Reactions**: No significant moves detected
 📅 **Economic Calendar**: No major releases scheduled
-📉 **Gap Watch**: Weak close near lows - watch for potential gap down and further weakness
-🔄 **Rotation Watch**: Monitor Utilities for continued strength
+📈 **Gap Watch**: Strong close near highs - watch for potential gap up and continuation
+🔄 **Rotation Watch**: Monitor Technology for continued strength
 
 **Key Movers**:
 
@@ -131,4 +129,4 @@ Pre-Market Futures Snapshot (as of 07:07 AM CST):
 7. One-Line Game Plan
 🟡 **Neutral mode** - Patience, let tape reveal direction
 Focus: Wait for clear directional move post-open
-⚡ Elevated VIX (20) - Normal sizing, standard targets
+✅ Low VIX (18) - Can hold for larger moves
